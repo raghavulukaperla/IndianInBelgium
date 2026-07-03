@@ -16,8 +16,8 @@ export function PopularDestinations() {
         </Link>
       </div>
       <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {cities.map((city) => (
-          <CityCard key={city.id} city={city} />
+        {cities.map((city, index) => (
+          <CityCard key={city.id} city={city} index={index} />
         ))}
       </div>
     </section>

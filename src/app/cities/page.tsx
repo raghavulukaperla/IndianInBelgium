@@ -23,8 +23,8 @@ export default function CitiesPage() {
       />
       <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {data.items.map((city) => (
-            <CityCard key={city.id} city={city} />
+          {data.items.map((city, index) => (
+            <CityCard key={city.id} city={city} index={index} />
           ))}
         </div>
       </div>

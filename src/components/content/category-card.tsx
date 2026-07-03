@@ -2,16 +2,18 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { getIcon } from "@/lib/icon-map";
+import { getCategoryColor } from "@/lib/category-colors";
 import type { CategoryNavEntry } from "@/types";
 
-export function CategoryCard({ category }: { category: CategoryNavEntry }) {
+export function CategoryCard({ category, index = 0 }: { category: CategoryNavEntry; index?: number }) {
   const Icon = getIcon(category.icon);
+  const color = getCategoryColor(category.parentSlug ?? category.slug, index);
 
   return (
     <Link href={category.href}>
       <Card className="group h-full transition-all hover:-translate-y-0.5 hover:shadow-md">
         <CardContent className="flex items-start gap-3">
-          <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-orange-500/15 via-amber-500/15 to-green-600/15 text-orange-600 dark:text-orange-400">
+          <span className={`flex size-10 shrink-0 items-center justify-center rounded-xl ${color.bg} ${color.text}`}>
             <Icon className="size-5" />
           </span>
           <div className="flex-1">

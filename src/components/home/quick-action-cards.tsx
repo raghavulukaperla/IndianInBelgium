@@ -3,10 +3,30 @@ import { Stamp, Phone, UtensilsCrossed, MapPin } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const ACTIONS = [
-  { title: "Check Visa Requirements", href: "/before-travel/visa", icon: Stamp },
-  { title: "Emergency Numbers", href: "/safety", icon: Phone },
-  { title: "Find Indian Food", href: "/food", icon: UtensilsCrossed },
-  { title: "Explore City Guides", href: "/cities", icon: MapPin },
+  {
+    title: "Check Visa Requirements",
+    href: "/before-travel/visa",
+    icon: Stamp,
+    color: "bg-blue-500/15 text-blue-600 dark:text-blue-400",
+  },
+  {
+    title: "Emergency Numbers",
+    href: "/safety",
+    icon: Phone,
+    color: "bg-red-500/15 text-red-600 dark:text-red-400",
+  },
+  {
+    title: "Find Indian Food",
+    href: "/food",
+    icon: UtensilsCrossed,
+    color: "bg-amber-500/15 text-amber-600 dark:text-amber-400",
+  },
+  {
+    title: "Explore City Guides",
+    href: "/cities",
+    icon: MapPin,
+    color: "bg-teal-500/15 text-teal-600 dark:text-teal-400",
+  },
 ];
 
 export function QuickActionCards() {
@@ -16,11 +36,13 @@ export function QuickActionCards() {
         {ACTIONS.map((action) => (
           <Link key={action.href} href={action.href}>
             <Card className="h-full text-center transition-all hover:-translate-y-0.5 hover:shadow-md">
-              <CardContent className="flex flex-col items-center gap-2 py-2">
-                <span className="flex size-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
+              <CardContent className="flex h-full flex-col items-center gap-2 py-2">
+                <span className={`flex size-10 shrink-0 items-center justify-center rounded-xl ${action.color}`}>
                   <action.icon className="size-5" />
                 </span>
-                <span className="text-sm font-medium">{action.title}</span>
+                <span className="flex flex-1 items-center text-sm font-medium">
+                  {action.title}
+                </span>
               </CardContent>
             </Card>
           </Link>

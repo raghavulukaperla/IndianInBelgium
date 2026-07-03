@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { getIcon } from "@/lib/icon-map";
 import { getTopLevelCategories, getChildCategories } from "@/lib/data";
+import { getCategoryColor } from "@/lib/category-colors";
 import { cn } from "@/lib/utils";
 
 export function DesktopNav() {
@@ -17,9 +18,10 @@ export function DesktopNav() {
 
   return (
     <nav className="hidden items-center gap-1 lg:flex">
-      {topLevel.map((category) => {
+      {topLevel.map((category, index) => {
         const children = getChildCategories(category.slug);
         const Icon = getIcon(category.icon);
+        const color = getCategoryColor(category.slug, index);
 
         if (children.length === 0) {
           return (
@@ -28,7 +30,7 @@ export function DesktopNav() {
               href={category.href}
               className="flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-medium text-foreground/80 transition-colors hover:bg-muted hover:text-foreground"
             >
-              <Icon className="size-4" />
+              <Icon className={cn("size-4", color.text)} />
               {category.title}
             </Link>
           );
@@ -41,7 +43,7 @@ export function DesktopNav() {
                 "flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-medium text-foreground/80 transition-colors hover:bg-muted hover:text-foreground",
               )}
             >
-              <Icon className="size-4" />
+              <Icon className={cn("size-4", color.text)} />
               {category.title}
               <ChevronDown className="size-3 opacity-60" />
             </DropdownMenuTrigger>

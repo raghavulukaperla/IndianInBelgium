@@ -19,6 +19,8 @@ import {
 } from "@/components/ui/accordion";
 import { getIcon } from "@/lib/icon-map";
 import { getTopLevelCategories, getChildCategories } from "@/lib/data";
+import { getCategoryColor } from "@/lib/category-colors";
+import { cn } from "@/lib/utils";
 
 export function MobileNavSheet() {
   const [open, setOpen] = useState(false);
@@ -38,9 +40,10 @@ export function MobileNavSheet() {
           <SheetTitle>Indians in Belgium</SheetTitle>
         </SheetHeader>
         <Accordion multiple className="px-4 pb-6">
-          {topLevel.map((category) => {
+          {topLevel.map((category, index) => {
             const children = getChildCategories(category.slug);
             const Icon = getIcon(category.icon);
+            const color = getCategoryColor(category.slug, index);
 
             if (children.length === 0) {
               return (
@@ -50,7 +53,7 @@ export function MobileNavSheet() {
                   onClick={() => setOpen(false)}
                   className="flex items-center gap-2 border-b py-3 text-sm font-medium"
                 >
-                  <Icon className="size-4" />
+                  <Icon className={cn("size-4", color.text)} />
                   {category.title}
                 </Link>
               );
@@ -60,7 +63,7 @@ export function MobileNavSheet() {
               <AccordionItem key={category.id} value={category.id}>
                 <AccordionTrigger className="text-sm font-medium">
                   <span className="flex items-center gap-2">
-                    <Icon className="size-4" />
+                    <Icon className={cn("size-4", color.text)} />
                     {category.title}
                   </span>
                 </AccordionTrigger>
