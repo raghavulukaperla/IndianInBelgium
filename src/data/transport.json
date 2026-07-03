@@ -1,0 +1,59 @@
+{
+  "title": "Public Transport Operators",
+  "description": "Belgium's four regional public transport operators.",
+  "lastUpdated": "2026-07-03",
+  "category": "transport",
+  "isSampleData": false,
+  "items": [
+    {
+      "id": "sncb",
+      "operator": "SNCB/NMBS",
+      "region": "National (all of Belgium)",
+      "modes": ["Intercity train", "Local train", "Airport train"],
+      "ticketingTypes": ["Standard ticket", "Go Pass 10 (under 26)", "Rail Pass 10 (26+)", "Weekend ticket"],
+      "appLinks": ["https://www.belgiantrain.be"],
+      "tips": [
+        "Book via the SNCB app or belgiantrain.be for live platform info.",
+        "Trains connect all major cities; Brussels has three main stations: Midi/Zuid, Central, and Nord/Noord.",
+        "Buy tickets before boarding where possible — on-board purchase carries a surcharge."
+      ]
+    },
+    {
+      "id": "stib",
+      "operator": "STIB/MIVB",
+      "region": "Brussels-Capital Region",
+      "modes": ["Metro", "Tram", "Bus"],
+      "ticketingTypes": ["Single ticket", "10-trip Brupass", "24h/48h/72h pass", "MOBIB card"],
+      "appLinks": ["https://www.stib-mivb.be"],
+      "tips": [
+        "Tap in with a MOBIB card or contactless bank card on buses and trams; validate paper tickets at metro gates.",
+        "The Brupass and Brupass XL allow combined travel with De Lijn, TEC and SNCB within Brussels.",
+        "Metro runs roughly 06:00-00:00, with night buses (Noctis) on weekends."
+      ]
+    },
+    {
+      "id": "de-lijn",
+      "operator": "De Lijn",
+      "region": "Flanders (Antwerp, Ghent, Bruges, Leuven, Mechelen)",
+      "modes": ["Tram", "Bus"],
+      "ticketingTypes": ["Single ticket (app/SMS/card)", "Day pass", "Lijnkaart"],
+      "appLinks": ["https://www.delijn.be"],
+      "tips": [
+        "The De Lijn app is the cheapest way to buy tickets — in-vehicle purchase costs more.",
+        "Antwerp and Ghent have extensive tram networks operated by De Lijn."
+      ]
+    },
+    {
+      "id": "tec",
+      "operator": "TEC",
+      "region": "Wallonia (Liège, Namur, Charleroi, Mons)",
+      "modes": ["Bus", "Tram (Charleroi)"],
+      "ticketingTypes": ["Single ticket", "10-trip card", "Day pass"],
+      "appLinks": ["https://www.letec.be"],
+      "tips": [
+        "Buy tickets via the TEC app before boarding for the best price.",
+        "Coverage is bus-focused outside Charleroi's light rail network."
+      ]
+    }
+  ]
+}

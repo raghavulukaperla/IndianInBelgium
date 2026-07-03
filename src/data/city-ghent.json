@@ -1,0 +1,29 @@
+{
+  "slug": "ghent",
+  "name": "Ghent",
+  "region": "Flanders",
+  "lastUpdated": "2026-07-03",
+  "isSampleData": true,
+  "overview": {
+    "description": "Ghent is a lively university city known for its medieval architecture, canals and student population. Content below is a starter sample — admins can expand it with fuller local detail.",
+    "population": "~265,000",
+    "whyVisit": ["Gravensteen medieval castle", "Historic Graslei and Korenlei waterfront", "Large student population and nightlife"]
+  },
+  "attractions": [
+    { "id": "gravensteen", "name": "Gravensteen Castle", "description": "A medieval moated castle in the city centre.", "category": "castle" },
+    { "id": "graslei", "name": "Graslei & Korenlei", "description": "Picturesque historic waterfront with guild houses.", "category": "landmark" }
+  ],
+  "transportation": [
+    { "mode": "Tram/Bus (De Lijn)", "description": "Good coverage of the city centre and university areas.", "tips": [] }
+  ],
+  "hotels": [
+    { "id": "ghent-centre", "name": "City Centre", "area": "Ghent Centrum", "priceRange": "€€", "notes": "Sample entry — to be expanded." }
+  ],
+  "foodSpots": [
+    { "id": "ghent-food-sample", "name": "Indian restaurants near the university district", "cuisine": "Indian", "notes": "Sample entry — to be expanded with verified listings." }
+  ],
+  "emergency": [
+    { "name": "General Emergency", "number": "112" }
+  ],
+  "tips": ["Ghent is very bike-friendly.", "Content on this page is a starter sample pending admin review."]
+}

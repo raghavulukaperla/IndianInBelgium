@@ -1,0 +1,65 @@
+{
+  "title": "Site Categories",
+  "description": "Navigation and content taxonomy for Indians in Belgium.",
+  "lastUpdated": "2026-07-03",
+  "category": "categories",
+  "isSampleData": false,
+  "items": [
+    { "id": "before-travel", "slug": "before-travel", "title": "Before Travel", "icon": "ClipboardCheck", "parentSlug": null, "description": "Visas, documents, insurance and everything to prepare before you fly.", "order": 1, "href": "/before-travel" },
+    { "id": "visa", "slug": "visa", "title": "Visa", "icon": "Stamp", "parentSlug": "before-travel", "description": "Schengen visa requirements and application process for Indians.", "order": 1, "href": "/before-travel/visa" },
+    { "id": "passport", "slug": "passport", "title": "Passport", "icon": "BookUser", "parentSlug": "before-travel", "description": "Passport validity rules, renewal and OCI guidance.", "order": 2, "href": "/before-travel/passport" },
+    { "id": "documents", "slug": "documents", "title": "Required Documents", "icon": "FileText", "parentSlug": "before-travel", "description": "The paperwork you need before departure.", "order": 3, "href": "/before-travel/documents" },
+    { "id": "insurance", "slug": "insurance", "title": "Travel Insurance", "icon": "ShieldCheck", "parentSlug": "before-travel", "description": "Schengen-compliant travel insurance options.", "order": 4, "href": "/before-travel/insurance" },
+    { "id": "currency", "slug": "currency", "title": "Currency & Cards", "icon": "Wallet", "parentSlug": "before-travel", "description": "Euros, exchange, banking and international cards.", "order": 5, "href": "/before-travel/currency" },
+    { "id": "packing", "slug": "packing", "title": "Packing Checklist", "icon": "Luggage", "parentSlug": "before-travel", "description": "What to pack for Belgium's climate and culture.", "order": 6, "href": "/before-travel/packing" },
+
+    { "id": "arrival", "slug": "arrival", "title": "Arrival", "icon": "PlaneLanding", "parentSlug": null, "description": "Landing at Brussels Airport, immigration, customs and getting into the city.", "order": 2, "href": "/arrival" },
+    { "id": "airport", "slug": "airport", "title": "Brussels Airport", "icon": "Plane", "parentSlug": "arrival", "description": "Brussels Airport (BRU) guide: transport, tips and services.", "order": 1, "href": "/arrival/airport" },
+    { "id": "immigration", "slug": "immigration", "title": "Immigration", "icon": "Fingerprint", "parentSlug": "arrival", "description": "Border control and municipality registration.", "order": 2, "href": "/arrival/immigration" },
+    { "id": "customs", "slug": "customs", "title": "Customs", "icon": "PackageSearch", "parentSlug": "arrival", "description": "What you can and can't bring into Belgium.", "order": 3, "href": "/arrival/customs" },
+    { "id": "sim", "slug": "sim", "title": "SIM Cards", "icon": "Smartphone", "parentSlug": "arrival", "description": "Getting connected on arrival.", "order": 4, "href": "/arrival/sim" },
+    { "id": "transport-from-airport", "slug": "transport-from-airport", "title": "Airport to City", "icon": "TrainFront", "parentSlug": "arrival", "description": "Train, bus, taxi and hotel check-in options.", "order": 5, "href": "/arrival/transport-from-airport" },
+
+    { "id": "transportation", "slug": "transportation", "title": "Transportation", "icon": "Bus", "parentSlug": null, "description": "Getting around Belgium by train, tram, bus, metro and more.", "order": 3, "href": "/transportation" },
+    { "id": "sncb", "slug": "sncb", "title": "SNCB Trains", "icon": "TrainFront", "parentSlug": "transportation", "description": "Belgium's national railway operator.", "order": 1, "href": "/transportation/sncb" },
+    { "id": "stib", "slug": "stib", "title": "STIB / MIVB", "icon": "TramFront", "parentSlug": "transportation", "description": "Brussels public transport network.", "order": 2, "href": "/transportation/stib" },
+    { "id": "de-lijn", "slug": "de-lijn", "title": "De Lijn", "icon": "BusFront", "parentSlug": "transportation", "description": "Flanders public transport network.", "order": 3, "href": "/transportation/de-lijn" },
+    { "id": "tec", "slug": "tec", "title": "TEC", "icon": "Bus", "parentSlug": "transportation", "description": "Wallonia public transport network.", "order": 4, "href": "/transportation/tec" },
+    { "id": "metro", "slug": "metro", "title": "Metro", "icon": "TrainFront", "parentSlug": "transportation", "description": "Brussels metro lines and stations.", "order": 5, "href": "/transportation/metro" },
+    { "id": "tram", "slug": "tram", "title": "Tram", "icon": "TramFront", "parentSlug": "transportation", "description": "Tram networks across Belgian cities.", "order": 6, "href": "/transportation/tram" },
+    { "id": "bus", "slug": "bus", "title": "Bus", "icon": "Bus", "parentSlug": "transportation", "description": "City and regional bus services.", "order": 7, "href": "/transportation/bus" },
+    { "id": "taxi-uber-bolt", "slug": "taxi-uber-bolt", "title": "Taxi, Uber & Bolt", "icon": "Car", "parentSlug": "transportation", "description": "Ride-hailing and taxi options.", "order": 8, "href": "/transportation/taxi-uber-bolt" },
+    { "id": "bicycle", "slug": "bicycle", "title": "Bicycle Rental", "icon": "Bike", "parentSlug": "transportation", "description": "Villo! and other bike-share schemes.", "order": 9, "href": "/transportation/bicycle" },
+
+    { "id": "community", "slug": "community", "title": "Indian Community", "icon": "Users", "parentSlug": null, "description": "Associations, places of worship, culture and sport for Indians in Belgium.", "order": 4, "href": "/community" },
+    { "id": "associations", "slug": "associations", "title": "Indian Associations", "icon": "Users", "parentSlug": "community", "description": "Community groups and welfare associations.", "order": 1, "href": "/community/associations" },
+    { "id": "temples", "slug": "temples", "title": "Temples", "icon": "Landmark", "parentSlug": "community", "description": "Hindu temples across Belgium.", "order": 2, "href": "/community/temples" },
+    { "id": "gurudwaras", "slug": "gurudwaras", "title": "Gurudwaras", "icon": "Landmark", "parentSlug": "community", "description": "Sikh gurudwaras across Belgium.", "order": 3, "href": "/community/gurudwaras" },
+    { "id": "churches", "slug": "churches", "title": "Churches", "icon": "Church", "parentSlug": "community", "description": "Indian Christian congregations.", "order": 4, "href": "/community/churches" },
+    { "id": "cultural-organizations", "slug": "cultural-organizations", "title": "Cultural Organizations", "icon": "Drama", "parentSlug": "community", "description": "Arts, dance, music and cultural groups.", "order": 5, "href": "/community/cultural-organizations" },
+    { "id": "festivals", "slug": "festivals", "title": "Festivals", "icon": "PartyPopper", "parentSlug": "community", "description": "Diwali, Holi and other celebrations in Belgium.", "order": 6, "href": "/community/festivals" },
+    { "id": "cricket", "slug": "cricket", "title": "Cricket Clubs", "icon": "Trophy", "parentSlug": "community", "description": "Cricket clubs and leagues.", "order": 7, "href": "/community/cricket" },
+
+    { "id": "food", "slug": "food", "title": "Food", "icon": "UtensilsCrossed", "parentSlug": null, "description": "Indian restaurants, vegetarian, halal food, grocery and spice shops.", "order": 5, "href": "/food" },
+    { "id": "shopping", "slug": "shopping", "title": "Shopping", "icon": "ShoppingBag", "parentSlug": null, "description": "Malls, supermarkets, Indian grocery and Sunday markets.", "order": 6, "href": "/shopping" },
+
+    { "id": "cities", "slug": "cities", "title": "Cities", "icon": "MapPin", "parentSlug": null, "description": "City guides for Brussels, Antwerp, Ghent, Bruges and more.", "order": 7, "href": "/cities" },
+
+    { "id": "tourism", "slug": "tourism", "title": "Tourism", "icon": "Camera", "parentSlug": null, "description": "UNESCO sites, museums, castles, chocolate, beer and day trips.", "order": 8, "href": "/tourism" },
+    { "id": "unesco", "slug": "unesco", "title": "UNESCO Sites", "icon": "Landmark", "parentSlug": "tourism", "description": "Belgium's UNESCO World Heritage Sites.", "order": 1, "href": "/tourism/unesco" },
+    { "id": "museums", "slug": "museums", "title": "Museums", "icon": "Building2", "parentSlug": "tourism", "description": "Art, history and science museums.", "order": 2, "href": "/tourism/museums" },
+    { "id": "castles", "slug": "castles", "title": "Castles", "icon": "Castle", "parentSlug": "tourism", "description": "Medieval castles and fortresses.", "order": 3, "href": "/tourism/castles" },
+    { "id": "parks", "slug": "parks", "title": "Parks", "icon": "Trees", "parentSlug": "tourism", "description": "Green spaces and gardens.", "order": 4, "href": "/tourism/parks" },
+    { "id": "chocolate", "slug": "chocolate", "title": "Chocolate Shops", "icon": "Candy", "parentSlug": "tourism", "description": "Belgium's famous chocolatiers.", "order": 5, "href": "/tourism/chocolate" },
+    { "id": "beer", "slug": "beer", "title": "Beer Experience", "icon": "Beer", "parentSlug": "tourism", "description": "Trappist breweries and beer cafes.", "order": 6, "href": "/tourism/beer" },
+    { "id": "day-trips", "slug": "day-trips", "title": "Day Trips", "icon": "MapPinned", "parentSlug": "tourism", "description": "Easy day trips from major cities.", "order": 7, "href": "/tourism/day-trips" },
+    { "id": "hidden-gems", "slug": "hidden-gems", "title": "Hidden Gems", "icon": "Gem", "parentSlug": "tourism", "description": "Lesser-known spots worth visiting.", "order": 8, "href": "/tourism/hidden-gems" },
+
+    { "id": "healthcare", "slug": "healthcare", "title": "Healthcare", "icon": "HeartPulse", "parentSlug": null, "description": "Hospitals, pharmacies, insurance and English-speaking clinics.", "order": 9, "href": "/healthcare" },
+    { "id": "education", "slug": "education", "title": "Education", "icon": "GraduationCap", "parentSlug": null, "description": "Universities, student visas and student life.", "order": 10, "href": "/education" },
+    { "id": "work", "slug": "work", "title": "Working in Belgium", "icon": "Briefcase", "parentSlug": null, "description": "Work permits, taxes, banking and social security.", "order": 11, "href": "/work" },
+    { "id": "safety", "slug": "safety", "title": "Safety", "icon": "ShieldAlert", "parentSlug": null, "description": "Emergency numbers, safety tips and scam awareness.", "order": 12, "href": "/safety" },
+    { "id": "embassy", "slug": "embassy", "title": "Embassy", "icon": "Landmark", "parentSlug": null, "description": "Indian Embassy Brussels, consular and passport services.", "order": 13, "href": "/embassy" },
+    { "id": "faq", "slug": "faq", "title": "FAQ", "icon": "HelpCircle", "parentSlug": null, "description": "Frequently asked questions, searchable.", "order": 14, "href": "/faq" }
+  ]
+}

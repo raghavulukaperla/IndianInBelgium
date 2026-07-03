@@ -1,0 +1,48 @@
+{
+  "title": "Visa Information",
+  "description": "Schengen visa guidance for Indian citizens travelling to Belgium.",
+  "lastUpdated": "2026-07-03",
+  "category": "visa",
+  "isSampleData": false,
+  "items": [
+    {
+      "id": "schengen-tourist-c",
+      "visaType": "Type C",
+      "title": "Belgium Schengen Tourist / Short-Stay Visa",
+      "description": "Belgium is a full member of the Schengen Area. A single Type C visa lets you stay up to 90 days within any 180-day period across all Schengen countries, for tourism, family visits or business.",
+      "eligibility": [
+        "Indian passport holders travelling for tourism, family visits, or short business trips",
+        "Not applicable for stays longer than 90 days (see national long-stay visas for work/study)"
+      ],
+      "documents": [
+        "Passport valid for at least 3 months beyond intended departure from Schengen area, issued within the last 10 years, with 2 blank pages",
+        "Completed and signed Schengen visa application form",
+        "Two recent passport-size photographs (Schengen specification)",
+        "Travel/medical insurance covering at least €30,000, valid across the Schengen area",
+        "Confirmed round-trip flight itinerary",
+        "Proof of accommodation (hotel bookings or invitation letter)",
+        "Cover letter stating purpose and itinerary of travel",
+        "Proof of sufficient funds (bank statements for last 3-6 months)",
+        "Proof of employment/business or student status in India",
+        "Civil status documents where relevant (e.g. marriage certificate for family visits)"
+      ],
+      "processingTime": "Typically 15 calendar days from a complete application; can extend up to 30-60 days during peak season or if additional checks are required.",
+      "fee": { "amount": 90, "currency": "EUR", "notes": "Children aged 6-12: €45. Children under 6: free. Fees are paid in INR equivalent at the VFS centre." },
+      "validity": "Up to 90 days within any 180-day period, multiple-entry depending on issuance.",
+      "applicationCenters": [
+        { "city": "New Delhi", "name": "VFS Global Belgium Visa Application Centre", "address": "See vfsglobal.com/belgium/india for the current address before travelling" },
+        { "city": "Mumbai", "name": "VFS Global Belgium Visa Application Centre", "address": "See vfsglobal.com/belgium/india for the current address before travelling" },
+        { "city": "Chennai", "name": "VFS Global Belgium Visa Application Centre", "address": "See vfsglobal.com/belgium/india for the current address before travelling" },
+        { "city": "Bengaluru", "name": "VFS Global Belgium Visa Application Centre", "address": "See vfsglobal.com/belgium/india for the current address before travelling" },
+        { "city": "Kolkata", "name": "VFS Global Belgium Visa Application Centre", "address": "See vfsglobal.com/belgium/india for the current address before travelling" },
+        { "city": "Hyderabad", "name": "VFS Global Belgium Visa Application Centre", "address": "See vfsglobal.com/belgium/india for the current address before travelling" }
+      ],
+      "steps": [
+        { "order": 1, "title": "Check eligibility & gather documents", "description": "Confirm Belgium is your main Schengen destination (longest stay or first entry point), then collect all required documents." },
+        { "order": 2, "title": "Book a VFS Global appointment", "description": "Apply online via vfsglobal.com/belgium/india and book a biometrics appointment at your nearest centre." },
+        { "order": 3, "title": "Attend the appointment", "description": "Submit documents, pay the fee, and provide biometrics (fingerprints and photo) if not on file from the last 5 years." },
+        { "order": 4, "title": "Track and collect", "description": "Track your application online and collect your passport once the decision is made, or opt for courier delivery." }
+      ]
+    }
+  ]
+}

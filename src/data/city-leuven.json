@@ -1,0 +1,28 @@
+{
+  "slug": "leuven",
+  "name": "Leuven",
+  "region": "Flanders",
+  "lastUpdated": "2026-07-03",
+  "isSampleData": true,
+  "overview": {
+    "description": "Leuven is home to KU Leuven, one of Europe's oldest universities, and has a sizeable international and Indian student community. Content below is a starter sample.",
+    "population": "~102,000",
+    "whyVisit": ["KU Leuven historic campus", "Grote Markt and Town Hall", "Student-friendly city with strong international community"]
+  },
+  "attractions": [
+    { "id": "leuven-town-hall", "name": "Leuven Town Hall", "description": "Ornate Gothic town hall on the Grote Markt.", "category": "landmark" }
+  ],
+  "transportation": [
+    { "mode": "Train", "description": "Direct trains to Brussels in ~25 minutes.", "tips": [] }
+  ],
+  "hotels": [
+    { "id": "leuven-centre", "name": "City Centre", "area": "Leuven Centrum", "priceRange": "€€", "notes": "Sample entry — to be expanded." }
+  ],
+  "foodSpots": [
+    { "id": "leuven-food-sample", "name": "Indian student-friendly eateries", "cuisine": "Indian", "notes": "Sample entry — to be expanded." }
+  ],
+  "emergency": [
+    { "name": "General Emergency", "number": "112" }
+  ],
+  "tips": ["Leuven has one of the highest concentrations of international students in Belgium.", "Content on this page is a starter sample pending admin review."]
+}

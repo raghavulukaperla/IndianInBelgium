@@ -1,0 +1,13 @@
+{
+  "title": "Festivals Celebrated by the Indian Community",
+  "description": "Major Indian festivals celebrated across Belgium.",
+  "lastUpdated": "2026-07-03",
+  "category": "festivals",
+  "isSampleData": true,
+  "items": [
+    { "id": "diwali", "name": "Diwali", "month": "October/November", "description": "Festival of lights, celebrated with community events in Brussels and Antwerp.", "typicalCelebrationCities": ["Brussels", "Antwerp"], "isPublicHoliday": false },
+    { "id": "holi", "name": "Holi", "month": "March", "description": "Festival of colours, often celebrated with outdoor community gatherings when weather permits.", "typicalCelebrationCities": ["Brussels", "Leuven"], "isPublicHoliday": false },
+    { "id": "independence-day", "name": "Indian Independence Day", "month": "August", "description": "Flag hoisting and cultural events, often hosted at or near the Embassy of India.", "typicalCelebrationCities": ["Brussels"], "isPublicHoliday": false },
+    { "id": "navratri", "name": "Navratri / Garba", "month": "September/October", "description": "Nine nights of dance and celebration, popular within the Gujarati community in Antwerp.", "typicalCelebrationCities": ["Antwerp"], "isPublicHoliday": false }
+  ]
+}

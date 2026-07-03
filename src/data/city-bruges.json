@@ -1,0 +1,41 @@
+{
+  "slug": "bruges",
+  "name": "Bruges",
+  "region": "Flanders",
+  "lastUpdated": "2026-07-03",
+  "isSampleData": false,
+  "overview": {
+    "description": "Bruges' entire historic centre is a UNESCO World Heritage Site, celebrated for its canals, cobbled streets and well-preserved medieval architecture. It's one of Belgium's top day-trip and short-stay destinations for visitors.",
+    "population": "~118,000",
+    "foundedNote": "Prominent trading city since the 12th-13th century",
+    "whyVisit": [
+      "UNESCO World Heritage historic centre",
+      "Canal boat tours through the 'Venice of the North'",
+      "Belfry of Bruges with panoramic city views",
+      "Renowned chocolate shops and breweries"
+    ]
+  },
+  "attractions": [
+    { "id": "markt-bruges", "name": "Markt Square & Belfry", "description": "Central square dominated by the 13th-century Belfry tower.", "category": "unesco" },
+    { "id": "canals-bruges", "name": "Bruges Canals", "description": "Boat tours offering views of historic bridges and facades.", "category": "landmark" },
+    { "id": "basilica-holy-blood", "name": "Basilica of the Holy Blood", "description": "Romanesque and Gothic basilica housing a relic venerated since the Crusades.", "category": "unesco" }
+  ],
+  "transportation": [
+    { "mode": "Walking", "description": "The historic centre is compact and best explored on foot.", "tips": ["Most sights are within a 20-minute walk of the Markt"] },
+    { "mode": "Train", "description": "Direct trains from Brussels (~1 hour) make Bruges an easy day trip.", "tips": [] }
+  ],
+  "hotels": [
+    { "id": "historic-centre-bruges", "name": "Historic Centre", "area": "Bruges Centrum", "priceRange": "€€-€€€€", "notes": "Charming but can be crowded with day-trippers; book well ahead in summer." }
+  ],
+  "foodSpots": [
+    { "id": "veg-options-bruges", "name": "Vegetarian-friendly cafés", "cuisine": "European with vegetarian options", "notes": "Fewer Indian restaurants than Brussels/Antwerp — most visitors day-trip in from larger cities." }
+  ],
+  "emergency": [
+    { "name": "General Emergency", "number": "112" }
+  ],
+  "tips": [
+    "Bruges gets very crowded with day-trippers — visit early morning or stay overnight for a quieter experience.",
+    "Many streets are cobblestone; comfortable footwear is essential.",
+    "Book popular restaurants and canal tours in advance during peak season."
+  ]
+}

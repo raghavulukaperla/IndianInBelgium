@@ -1,0 +1,29 @@
+{
+  "title": "Frequently Asked Questions",
+  "description": "Common questions from Indians travelling to or living in Belgium.",
+  "lastUpdated": "2026-07-03",
+  "category": "faq",
+  "isSampleData": false,
+  "items": [
+    { "id": "faq-1", "question": "Do Indian citizens need a visa to visit Belgium?", "answer": "Yes. Indian passport holders need a Schengen Type C visa for tourism or short business visits of up to 90 days within a 180-day period. Apply through VFS Global.", "category": "visa" },
+    { "id": "faq-2", "question": "How long does a Belgium visa take to process?", "answer": "Typically around 15 calendar days for a complete application, but it can take up to 30-60 days during busy periods, so apply as early as possible (up to 6 months ahead, and no later than 15 days before travel).", "category": "visa" },
+    { "id": "faq-3", "question": "What is the emergency number in Belgium?", "answer": "Dial 112 for any emergency (ambulance, fire or police) anywhere in Belgium — it's toll-free. You can also dial 101 directly for police or 100 for ambulance/fire.", "category": "emergency" },
+    { "id": "faq-4", "question": "Where is the Indian Embassy in Belgium located?", "answer": "The Embassy of India is at 217 Chaussée de Vleurgat, 1050 Brussels. It covers Belgium, Luxembourg and the EU institutions.", "category": "embassy" },
+    { "id": "faq-5", "question": "How do I get from Brussels Airport into the city?", "answer": "The Brussels Airport Express train takes about 18 minutes to Brussels-Central (~€8.90). The STIB Airport Bus (Line 12) is a cheaper alternative into the EU Quarter (~€7.90 with a MOBIB or contactless card).", "category": "airport" },
+    { "id": "faq-6", "question": "What currency is used in Belgium?", "answer": "The Euro (EUR). Contactless card payments are widely accepted, and ATMs are common in all cities.", "category": "currency" },
+    { "id": "faq-7", "question": "Is Belgium safe for solo travellers?", "answer": "Belgium is generally very safe. As in any European city, be alert for pickpocketing in crowded tourist areas and on public transport.", "category": "safety" },
+    { "id": "faq-8", "question": "Can I find vegetarian and Jain food in Belgium?", "answer": "Yes, especially in Brussels and Antwerp (particularly around the Diamond District), which have dedicated Indian vegetarian and Jain-friendly restaurants.", "category": "food" },
+    { "id": "faq-9", "question": "What languages are spoken in Belgium?", "answer": "Belgium has three official languages: Dutch (Flanders), French (Wallonia) and German (small eastern region). Brussels is officially bilingual French/Dutch. English is widely understood in cities.", "category": "general" },
+    { "id": "faq-10", "question": "Do I need to register with the local municipality after arriving?", "answer": "Yes, if staying longer than 90 days, non-EU nationals must register their address at the local commune/gemeente (municipality) within 8 working days of arrival.", "category": "immigration" },
+    { "id": "faq-11", "question": "How do public transport tickets work across Belgium?", "answer": "Each region has its own operator — STIB (Brussels), De Lijn (Flanders), TEC (Wallonia) and SNCB (national trains). MOBIB cards and contactless bank cards work on most local networks; SNCB tickets are separate.", "category": "transport" },
+    { "id": "faq-12", "question": "What should I pack for Belgium's weather?", "answer": "Belgium has a mild, rainy maritime climate. Pack layers, a waterproof jacket, and comfortable walking shoes year-round; winters are cold and grey, summers are mild.", "category": "packing" },
+    { "id": "faq-13", "question": "Can I use my Indian driving licence in Belgium?", "answer": "An Indian driving licence with an International Driving Permit (IDP) can be used for short stays (up to 185 days). For residents, conversion to a Belgian licence is required within that window.", "category": "transport" },
+    { "id": "faq-14", "question": "Are there Hindu temples or gurudwaras in Belgium?", "answer": "Yes — Brussels and Antwerp have Hindu temples and gurudwaras serving the Indian community. See the Indian Community section for details.", "category": "community" },
+    { "id": "faq-15", "question": "How do I renew my Indian passport while in Belgium?", "answer": "Passport renewal is handled by the Embassy of India in Brussels. Check indianembassybrussels.gov.in for the latest application forms and appointment system.", "category": "embassy" },
+    { "id": "faq-16", "question": "Is healthcare good in Belgium?", "answer": "Belgium has a high-quality healthcare system. Visitors should carry travel insurance; residents must enrol in mandatory health insurance (mutualité/ziekenfonds).", "category": "healthcare" },
+    { "id": "faq-17", "question": "Can I work in Belgium on a tourist visa?", "answer": "No. A Schengen tourist visa does not permit employment. You need a work permit or single permit tied to a specific job offer.", "category": "work" },
+    { "id": "faq-18", "question": "What is the best way to travel between Belgian cities?", "answer": "SNCB trains are fast, frequent and connect all major cities — usually the best option over driving, especially between Brussels, Antwerp, Ghent and Bruges.", "category": "transport" },
+    { "id": "faq-19", "question": "Do I need an adapter for electrical outlets in Belgium?", "answer": "Belgium uses the Type E plug (230V, 50Hz), the same as most of continental Europe. Indian plugs (Type C/D) will need an adapter.", "category": "packing" },
+    { "id": "faq-20", "question": "How do I find English-speaking doctors in Belgium?", "answer": "Many doctors in Brussels and other major cities speak English, especially in international clinics. See the Healthcare section for guidance on finding one.", "category": "healthcare" }
+  ]
+}

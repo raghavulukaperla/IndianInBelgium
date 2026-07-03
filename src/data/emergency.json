@@ -1,0 +1,17 @@
+{
+  "title": "Emergency Numbers",
+  "description": "Essential emergency contact numbers in Belgium.",
+  "lastUpdated": "2026-07-03",
+  "category": "emergency",
+  "isSampleData": false,
+  "items": [
+    { "id": "112", "name": "General Emergency (EU-wide)", "number": "112", "category": "other", "description": "Toll-free from any phone, anywhere in the EU. Press 1 for ambulance/fire, press 2 for police.", "availableHours": "24/7" },
+    { "id": "101", "name": "Police (direct)", "number": "101", "category": "police", "description": "Direct line for urgent police assistance.", "availableHours": "24/7" },
+    { "id": "100", "name": "Ambulance & Fire Brigade (legacy)", "number": "100", "category": "medical", "description": "Older number for ambulance and fire brigade, still active alongside 112.", "availableHours": "24/7" },
+    { "id": "1722", "name": "Fire Brigade Non-Urgent (Storm Line)", "number": "1722", "category": "fire", "description": "Only active during storms/severe weather for non-life-threatening fire brigade assistance.", "availableHours": "Activated during severe weather only" },
+    { "id": "1733", "name": "On-Call Doctor", "number": "1733", "category": "medical", "description": "Non-emergency on-call doctor service outside regular practice hours.", "availableHours": "Evenings, nights, weekends & holidays" },
+    { "id": "antipoison", "name": "Poison Control Centre", "number": "070 245 245", "category": "medical", "description": "Belgian Poison Control Centre for poisoning emergencies.", "availableHours": "24/7" },
+    { "id": "card-stop", "name": "Card Stop (lost/stolen bank cards)", "number": "078 170 170", "category": "other", "description": "Block a lost or stolen Belgian bank card.", "availableHours": "24/7" },
+    { "id": "child-focus", "name": "Child Focus (missing children)", "number": "116 000", "category": "other", "description": "Hotline for missing and sexually exploited children.", "availableHours": "24/7" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "namur",
+  "name": "Namur",
+  "region": "Wallonia",
+  "lastUpdated": "2026-07-03",
+  "isSampleData": true,
+  "overview": {
+    "description": "Namur is the capital of Wallonia, dominated by its historic citadel at the confluence of the Meuse and Sambre rivers. Content below is a starter sample.",
+    "population": "~112,000",
+    "whyVisit": ["Namur Citadel", "Confluence of the Meuse and Sambre rivers", "Compact, walkable historic centre"]
+  },
+  "attractions": [
+    { "id": "namur-citadel", "name": "Namur Citadel", "description": "A large fortified complex overlooking the city.", "category": "landmark" }
+  ],
+  "transportation": [
+    { "mode": "Bus (TEC)", "description": "TEC buses cover the city and surrounding area.", "tips": [] }
+  ],
+  "hotels": [
+    { "id": "namur-centre", "name": "City Centre", "area": "Namur Centre", "priceRange": "€€", "notes": "Sample entry — to be expanded." }
+  ],
+  "foodSpots": [
+    { "id": "namur-food-sample", "name": "Restaurants in the historic centre", "cuisine": "Mixed", "notes": "Sample entry — limited Indian options; to be expanded." }
+  ],
+  "emergency": [
+    { "name": "General Emergency", "number": "112" }
+  ],
+  "tips": ["Namur is a good base for exploring the Wallonia countryside.", "Content on this page is a starter sample pending admin review."]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "brussels",
+  "name": "Brussels",
+  "region": "Brussels-Capital Region",
+  "lastUpdated": "2026-07-03",
+  "isSampleData": false,
+  "overview": {
+    "description": "Brussels is Belgium's capital and the administrative heart of the European Union. It's a bilingual (French/Dutch), multicultural city with a large Indian community, easy rail links to the rest of Europe, and a compact historic centre around the Grand Place.",
+    "population": "~1.22 million (metro area)",
+    "foundedNote": "Founded around the 10th-11th century",
+    "whyVisit": [
+      "UNESCO-listed Grand Place, one of Europe's most beautiful squares",
+      "EU Quarter and major European institutions",
+      "Home to the largest Indian community and Embassy of India in Belgium",
+      "Excellent rail hub — trains to Paris, Amsterdam, Cologne and London"
+    ]
+  },
+  "attractions": [
+    { "id": "grand-place", "name": "Grand Place / Grote Markt", "description": "UNESCO World Heritage central square surrounded by guildhalls and the Town Hall.", "category": "unesco" },
+    { "id": "atomium", "name": "Atomium", "description": "Iconic 1958 World's Fair structure with an observation deck and exhibitions.", "category": "landmark" },
+    { "id": "manneken-pis", "name": "Manneken Pis", "description": "Brussels' famous small bronze fountain statue.", "category": "landmark" },
+    { "id": "royal-palace", "name": "Royal Palace of Brussels", "description": "Official palace of the King of the Belgians, open to visitors in summer.", "category": "landmark" },
+    { "id": "parc-cinquantenaire", "name": "Parc du Cinquantenaire", "description": "Grand park with triumphal arch and museums, popular for walks and picnics.", "category": "park" }
+  ],
+  "transportation": [
+    { "mode": "Metro/Tram/Bus (STIB)", "description": "Dense network covering the whole city; the fastest way to reach the EU Quarter and outer neighbourhoods.", "tips": ["Buy a Brupass day pass if making 3+ trips", "Metro runs until midnight, later on weekends with Noctis night buses"] },
+    { "mode": "Train", "description": "Three main stations — Brussels-Midi (Eurostar/Thalys), Brussels-Central, and Brussels-Nord.", "tips": ["Midi is best for international trains", "Central is closest to the Grand Place"] }
+  ],
+  "hotels": [
+    { "id": "city-centre", "name": "City Centre / Grand Place area", "area": "Brussels-Centre", "priceRange": "€€-€€€", "notes": "Walkable to major sights, can be noisy on weekends." },
+    { "id": "eu-quarter", "name": "EU Quarter / Schuman", "area": "Etterbeek/Ixelles border", "priceRange": "€€-€€€€", "notes": "Business-friendly, quieter evenings, close to Embassy of India." }
+  ],
+  "foodSpots": [
+    { "id": "indian-restaurants-brussels", "name": "Indian restaurants around Ixelles & Saint-Josse", "cuisine": "North & South Indian", "notes": "Highest concentration of Indian restaurants and grocery stores in Belgium." }
+  ],
+  "emergency": [
+    { "name": "General Emergency", "number": "112", "note": "Ambulance/fire press 1, police press 2" },
+    { "name": "Embassy of India, Brussels", "number": "+32 (0)2 640 9140", "note": "217 Chaussée de Vleurgat, 1050 Brussels" }
+  ],
+  "tips": [
+    "Brussels is bilingual — street signs appear in both French and Dutch.",
+    "Validate public transport tickets before boarding to avoid fines.",
+    "Sunday mornings often mean quieter streets but some shops closed."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Travel Insurance",
+  "description": "Schengen-compliant travel insurance guidance for Indian travellers.",
+  "lastUpdated": "2026-07-03",
+  "category": "insurance",
+  "isSampleData": true,
+  "items": [
+    { "id": "schengen-insurance", "title": "Schengen Travel Insurance", "description": "Mandatory for the visa application — must cover at least €30,000 for medical emergencies and repatriation, valid across the whole Schengen area for your full trip duration.", "steps": [], "tips": ["Buy insurance before applying for your visa — the policy is a required document"], "meta": { "minCoverage": "€30,000" } },
+    { "id": "long-stay-insurance", "title": "Long-Stay / Resident Insurance", "description": "Once resident, you'll typically move to mandatory Belgian health insurance (mutualité/ziekenfonds) rather than travel insurance.", "steps": [], "tips": ["Sample entry — providers vary; consult a local insurance broker"], "meta": { "note": "Sample/starter content" } }
+  ]
+}

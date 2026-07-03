@@ -1,0 +1,17 @@
+{
+  "title": "Cities",
+  "description": "City guide index for Belgium's most visited destinations.",
+  "lastUpdated": "2026-07-03",
+  "category": "cities",
+  "isSampleData": false,
+  "items": [
+    { "id": "brussels", "slug": "brussels", "name": "Brussels", "region": "Brussels-Capital Region", "isCapital": true, "shortDescription": "Belgium's capital and the de facto capital of the EU — home to the Grand Place, EU institutions, and the largest Indian community in Belgium.", "population": "~1.22 million (metro)", "hasFullProfile": true },
+    { "id": "antwerp", "slug": "antwerp", "name": "Antwerp", "region": "Flanders", "isCapital": false, "shortDescription": "Belgium's largest port city, a global diamond trading hub with a significant Indian (especially Gujarati/Jain) business community.", "population": "~530,000", "hasFullProfile": true },
+    { "id": "ghent", "slug": "ghent", "name": "Ghent", "region": "Flanders", "isCapital": false, "shortDescription": "A medieval university city with canals, a lively student population and striking Gothic architecture.", "population": "~265,000", "hasFullProfile": true },
+    { "id": "bruges", "slug": "bruges", "name": "Bruges", "region": "Flanders", "isCapital": false, "shortDescription": "A UNESCO World Heritage old town famed for its canals, chocolate shops and medieval charm.", "population": "~118,000", "hasFullProfile": true },
+    { "id": "leuven", "slug": "leuven", "name": "Leuven", "region": "Flanders", "isCapital": false, "shortDescription": "Home to KU Leuven, one of Europe's oldest universities, and a large international student population.", "population": "~102,000", "hasFullProfile": true },
+    { "id": "liege", "slug": "liege", "name": "Liège", "region": "Wallonia", "isCapital": false, "shortDescription": "A historic industrial city on the Meuse river with a French-speaking university community.", "population": "~197,000", "hasFullProfile": true },
+    { "id": "namur", "slug": "namur", "name": "Namur", "region": "Wallonia", "isCapital": false, "shortDescription": "Capital of Wallonia, known for its citadel overlooking the Meuse and Sambre rivers.", "population": "~112,000", "hasFullProfile": true },
+    { "id": "mechelen", "slug": "mechelen", "name": "Mechelen", "region": "Flanders", "isCapital": false, "shortDescription": "A charming, walkable city midway between Brussels and Antwerp with a well-preserved historic centre.", "population": "~87,000", "hasFullProfile": true }
+  ]
+}

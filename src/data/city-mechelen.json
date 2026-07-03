@@ -1,0 +1,28 @@
+{
+  "slug": "mechelen",
+  "name": "Mechelen",
+  "region": "Flanders",
+  "lastUpdated": "2026-07-03",
+  "isSampleData": true,
+  "overview": {
+    "description": "Mechelen is a charming, walkable city midway between Brussels and Antwerp with a well-preserved historic centre. Content below is a starter sample.",
+    "population": "~87,000",
+    "whyVisit": ["St. Rumbold's Cathedral tower", "Compact, easily walkable historic centre", "Convenient location between Brussels and Antwerp"]
+  },
+  "attractions": [
+    { "id": "st-rumbolds", "name": "St. Rumbold's Cathedral", "description": "A UNESCO-listed belfry tower with panoramic views.", "category": "unesco" }
+  ],
+  "transportation": [
+    { "mode": "Train", "description": "On the main Brussels-Antwerp line, roughly 25 minutes from each.", "tips": [] }
+  ],
+  "hotels": [
+    { "id": "mechelen-centre", "name": "City Centre", "area": "Mechelen Centrum", "priceRange": "€€", "notes": "Sample entry — to be expanded." }
+  ],
+  "foodSpots": [
+    { "id": "mechelen-food-sample", "name": "Restaurants in the historic centre", "cuisine": "Mixed", "notes": "Sample entry — to be expanded." }
+  ],
+  "emergency": [
+    { "name": "General Emergency", "number": "112" }
+  ],
+  "tips": ["Mechelen makes a quieter alternative base to Brussels or Antwerp.", "Content on this page is a starter sample pending admin review."]
+}

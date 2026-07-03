@@ -1,0 +1,13 @@
+{
+  "title": "Safety",
+  "description": "Emergency numbers, safety tips and scam awareness for Belgium.",
+  "lastUpdated": "2026-07-03",
+  "category": "safety",
+  "isSampleData": true,
+  "items": [
+    { "id": "emergency-numbers-safety", "title": "Emergency Numbers", "description": "112 for general emergencies, 101 for police, 100 for ambulance/fire. See the Emergency Contacts section for the full list.", "steps": [], "tips": ["Save these numbers in your phone before you travel"], "relatedLinks": [{ "label": "Emergency Contacts", "href": "/safety" }] },
+    { "id": "lost-passport", "title": "Lost Passport", "description": "Report a lost or stolen passport to the local police first to get an official report, then contact the Embassy of India in Brussels for an emergency certificate or replacement.", "steps": ["File a police report (proof of loss) at the nearest police station", "Contact the Embassy of India, Brussels with the police report", "Apply for an emergency certificate or new passport at the embassy"], "tips": [] },
+    { "id": "lost-wallet", "title": "Lost Wallet", "description": "Act quickly to block bank cards and report the loss.", "steps": ["Call Card Stop (078 170 170) immediately to block Belgian bank cards", "Contact your Indian bank to block any Indian cards", "File a police report if needed for insurance purposes"], "tips": [] },
+    { "id": "scam-awareness", "title": "Scam Awareness", "description": "Belgium is generally safe, but be alert to common tourist-area scams.", "steps": [], "tips": ["Watch for pickpockets in crowded tourist spots and on public transport", "Avoid unofficial/unmarked taxis, especially at the airport", "Be cautious of unsolicited 'petition' or 'friendship bracelet' distractions used by pickpocket teams"] }
+  ]
+}

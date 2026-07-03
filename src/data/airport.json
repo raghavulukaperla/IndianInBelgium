@@ -1,0 +1,59 @@
+{
+  "title": "Brussels Airport Guide",
+  "description": "Everything you need to know about arriving at Brussels Airport (BRU).",
+  "lastUpdated": "2026-07-03",
+  "category": "airport",
+  "isSampleData": false,
+  "items": [
+    {
+      "id": "brussels-airport",
+      "name": "Brussels Airport (BRU), Zaventem",
+      "transportOptions": [
+        {
+          "id": "airport-express-train",
+          "mode": "Train",
+          "line": "Brussels Airport Express",
+          "duration": "~18 minutes to Brussels-Central",
+          "price": "€8.90",
+          "priceNote": "Includes the Brussels Airport rail supplement; also stops at Brussels-North and Brussels-South (Midi).",
+          "frequency": "Every 10-15 minutes",
+          "howTo": "Follow 'Train' signs from the arrivals hall down to the station beneath the terminal. Buy tickets at SNCB machines or the SNCB app before boarding."
+        },
+        {
+          "id": "stib-bus-12",
+          "mode": "Bus",
+          "line": "STIB/MIVB Airport Line (Bus 12 / Night bus N12)",
+          "duration": "~30-40 minutes to Schuman/Brussels city centre",
+          "price": "€7.90 with MOBIB or contactless card, €8.40 paper ticket",
+          "priceNote": "Cheaper and simpler than the train if your destination is near the EU Quarter.",
+          "frequency": "Every 15-20 minutes",
+          "howTo": "Bus stop is outside the arrivals hall. Tap a contactless bank card or MOBIB card directly, or buy a ticket from the driver/machine."
+        },
+        {
+          "id": "taxi",
+          "mode": "Taxi",
+          "line": "Official airport taxis",
+          "duration": "~25-40 minutes to city centre depending on traffic",
+          "price": "Approx. €45-55 to central Brussels",
+          "priceNote": "Only use taxis from the official rank with visible meters; avoid unmarked touts inside the terminal.",
+          "frequency": "On demand",
+          "howTo": "Follow 'Taxi' signs to the official rank outside arrivals."
+        }
+      ],
+      "immigrationTips": [
+        "Non-EU passport holders use the 'All Passports' lanes; e-gates are for EU/EEA/Swiss passports only.",
+        "Have your passport, visa, return ticket and proof of accommodation ready in case of questions.",
+        "Automated passport control kiosks are being rolled out for some visa categories — check current signage on arrival."
+      ],
+      "customsRules": [
+        "Non-EU travellers can bring in duty-free goods up to certain value/quantity limits (check current allowances on the Belgian customs website before travel).",
+        "Declare cash amounts of €10,000 or more when entering or leaving the EU.",
+        "Certain food items (meat, dairy) from outside the EU are restricted or prohibited."
+      ],
+      "simCardKiosks": [
+        "Proximus, Orange and Base/Telenet kiosks are located in the arrivals hall for prepaid tourist SIM cards.",
+        "A passport is required to register a Belgian SIM card."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "antwerp",
+  "name": "Antwerp",
+  "region": "Flanders",
+  "lastUpdated": "2026-07-03",
+  "isSampleData": false,
+  "overview": {
+    "description": "Antwerp is Belgium's largest city by area and its main port. It's globally known as a diamond trading centre, with a significant Indian business community (many from the Gujarati and Jain diaspora) concentrated around the Diamond District near Antwerp-Central station.",
+    "population": "~530,000",
+    "foundedNote": "First documented in the 7th century",
+    "whyVisit": [
+      "One of the world's largest diamond trading hubs",
+      "Antwerp-Centraal, considered one of the most beautiful railway stations in the world",
+      "Historic Grote Markt and Cathedral of Our Lady",
+      "Strong fashion and design scene"
+    ]
+  },
+  "attractions": [
+    { "id": "antwerp-centraal", "name": "Antwerp-Centraal Station", "description": "A landmark building nicknamed the 'Railway Cathedral'.", "category": "landmark" },
+    { "id": "grote-markt-antwerp", "name": "Grote Markt", "description": "Historic market square with guild houses and the Brabo Fountain.", "category": "landmark" },
+    { "id": "cathedral-our-lady", "name": "Cathedral of Our Lady", "description": "Belgium's largest Gothic cathedral, home to Rubens masterpieces.", "category": "unesco" },
+    { "id": "diamond-district", "name": "Diamond District", "description": "The world-famous diamond trading quarter, home to many Indian-run diamond businesses.", "category": "landmark" }
+  ],
+  "transportation": [
+    { "mode": "Tram/Bus (De Lijn)", "description": "Extensive tram network including underground 'premetro' sections.", "tips": ["Buy tickets via the De Lijn app for the best price"] },
+    { "mode": "Train", "description": "Antwerp-Centraal connects directly to Brussels (~45 min), Amsterdam and Rotterdam.", "tips": [] }
+  ],
+  "hotels": [
+    { "id": "diamond-district-hotels", "name": "Near Antwerp-Centraal / Diamond District", "area": "Antwerpen-Centrum", "priceRange": "€€-€€€", "notes": "Convenient for business travellers and the diamond trade." }
+  ],
+  "foodSpots": [
+    { "id": "indian-food-antwerp", "name": "Indian & Jain restaurants near the Diamond District", "cuisine": "Gujarati, Jain, North Indian", "notes": "Several dedicated vegetarian and Jain-friendly restaurants serve the diamond trading community." }
+  ],
+  "emergency": [
+    { "name": "General Emergency", "number": "112" },
+    { "name": "Antwerp Police (non-emergency)", "number": "101" }
+  ],
+  "tips": [
+    "Dutch is the primary language — English is widely spoken in business and tourist areas.",
+    "The Diamond District has visible security; carry ID when visiting.",
+    "Antwerp is very cycling-friendly — consider a bike rental for short trips."
+  ]
+}

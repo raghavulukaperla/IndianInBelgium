@@ -1,0 +1,21 @@
+{
+  "title": "Travel Checklist",
+  "description": "A phase-by-phase checklist template for the home page widget.",
+  "lastUpdated": "2026-07-03",
+  "category": "checklist",
+  "isSampleData": true,
+  "items": [
+    { "id": "chk-1", "label": "Apply for Schengen visa (at least 3-4 weeks ahead)", "phase": "before-travel" },
+    { "id": "chk-2", "label": "Buy Schengen-compliant travel insurance (min. €30,000 cover)", "phase": "before-travel" },
+    { "id": "chk-3", "label": "Book flights and accommodation", "phase": "before-travel" },
+    { "id": "chk-4", "label": "Pack a universal power adapter and weather-appropriate clothing", "phase": "before-travel" },
+    { "id": "chk-5", "label": "Save embassy and emergency numbers to your phone", "phase": "before-travel" },
+    { "id": "chk-6", "label": "Collect a prepaid SIM card at the airport", "phase": "arrival" },
+    { "id": "chk-7", "label": "Take the Airport Express train or STIB bus into the city", "phase": "arrival" },
+    { "id": "chk-8", "label": "Check in at your accommodation", "phase": "arrival" },
+    { "id": "chk-9", "label": "Register your address at the local commune (if staying 90+ days)", "phase": "first-week" },
+    { "id": "chk-10", "label": "Open a Belgian bank account (if resident)", "phase": "first-week" },
+    { "id": "chk-11", "label": "Get a MOBIB/transport card for your city", "phase": "first-week" },
+    { "id": "chk-12", "label": "Register with a local GP", "phase": "first-week" }
+  ]
+}

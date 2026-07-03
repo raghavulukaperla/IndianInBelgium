@@ -1,0 +1,11 @@
+{
+  "title": "Cricket Clubs",
+  "description": "Cricket clubs and leagues with Indian community participation in Belgium.",
+  "lastUpdated": "2026-07-03",
+  "category": "cricket",
+  "isSampleData": true,
+  "items": [
+    { "id": "cricket-1", "clubName": "Royal Brussels Cricket Club (sample)", "city": "Brussels", "league": "Belgian Cricket Federation", "contact": "Contact via Belgian Cricket Federation", "groundName": "Sample entry — to be confirmed" },
+    { "id": "cricket-2", "clubName": "Antwerp Cricket Club (sample)", "city": "Antwerp", "league": "Belgian Cricket Federation", "contact": "Contact via Belgian Cricket Federation", "groundName": "Sample entry — to be confirmed" }
+  ]
+}

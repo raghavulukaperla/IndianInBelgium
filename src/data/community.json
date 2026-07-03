@@ -1,0 +1,14 @@
+{
+  "title": "Indian Community Organizations",
+  "description": "Associations, places of worship and cultural organizations for Indians in Belgium.",
+  "lastUpdated": "2026-07-03",
+  "category": "community",
+  "isSampleData": true,
+  "items": [
+    { "id": "assoc-1", "name": "Indian Association of Belgium (sample)", "type": "association", "city": "Brussels", "address": "Sample entry — to be confirmed", "description": "Community welfare and cultural association for Indians in Belgium.", "contact": "Contact via community directory", "website": "", "events": ["Diwali celebration", "Independence Day flag hoisting"] },
+    { "id": "temple-1", "name": "Hindu Temple Brussels (sample)", "type": "temple", "city": "Brussels", "address": "Sample entry — to be confirmed", "description": "Community Hindu temple serving Brussels-area families.", "contact": "Contact via community directory", "website": "", "events": ["Weekly puja", "Navratri"] },
+    { "id": "gurudwara-1", "name": "Gurudwara Brussels (sample)", "type": "gurudwara", "city": "Brussels", "address": "Sample entry — to be confirmed", "description": "Sikh gurudwara offering weekly services and langar.", "contact": "Contact via community directory", "website": "", "events": ["Weekly Sunday services", "Vaisakhi"] },
+    { "id": "church-1", "name": "Indian Christian Community Antwerp (sample)", "type": "church", "city": "Antwerp", "address": "Sample entry — to be confirmed", "description": "Congregation serving the Indian Christian community.", "contact": "Contact via community directory", "website": "", "events": ["Sunday mass", "Christmas gathering"] },
+    { "id": "cultural-1", "name": "Belgo-Indian Cultural Circle (sample)", "type": "cultural-org", "city": "Brussels", "address": "Sample entry — to be confirmed", "description": "Promotes Indian classical dance, music and arts in Belgium.", "contact": "Contact via community directory", "website": "", "events": ["Annual cultural showcase"] }
+  ]
+}

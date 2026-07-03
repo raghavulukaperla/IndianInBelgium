@@ -1,0 +1,14 @@
+{
+  "title": "Latest News",
+  "description": "Sample news feed. Admins: add new entries at the top (or anywhere — the feed sorts by date) and push to publish.",
+  "lastUpdated": "2026-07-03",
+  "category": "news",
+  "isSampleData": true,
+  "items": [
+    { "id": "news-1", "title": "Belgium Schengen visa fee guidance updated", "summary": "VFS Global centres in India continue to process Belgium short-stay visa applications; standard processing remains around 15 days for complete applications.", "date": "2026-07-01", "tag": "news" },
+    { "id": "news-2", "title": "Brussels Airport Express train remains fastest airport link", "summary": "The Airport Express train continues to be the quickest way from Brussels Airport into the city centre, taking around 18 minutes to Brussels-Central.", "date": "2026-06-20", "tag": "news" },
+    { "id": "news-3", "title": "Diwali celebrations planned across Brussels and Antwerp", "summary": "Indian associations in Brussels and Antwerp are preparing community Diwali events — check the Community & Festivals section closer to the date.", "date": "2026-06-10", "tag": "news" },
+    { "id": "news-4", "title": "STIB MOBIB card contactless payment expanding", "summary": "Contactless bank card payment continues to roll out across STIB buses and trams as an alternative to the MOBIB card.", "date": "2026-05-28", "tag": "news" },
+    { "id": "news-5", "title": "New academic year: student visa reminders for KU Leuven and other universities", "summary": "Indian students admitted to Belgian universities are reminded to apply for their student visa well ahead of the academic year start.", "date": "2026-05-15", "tag": "news" }
+  ]
+}

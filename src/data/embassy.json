@@ -1,0 +1,35 @@
+{
+  "title": "Embassy & Consulate",
+  "description": "Indian Embassy in Brussels, covering Belgium, Luxembourg and the EU.",
+  "lastUpdated": "2026-07-03",
+  "category": "embassy",
+  "isSampleData": false,
+  "items": [
+    {
+      "id": "embassy-brussels",
+      "name": "Embassy of India, Brussels",
+      "type": "embassy",
+      "address": "217, Chaussée de Vleurgat, 1050 Brussels, Belgium",
+      "city": "Brussels",
+      "phone": ["+32 (0)2 640 9140", "+32 (0)2 645 1850"],
+      "email": "cons.brussels@mea.gov.in",
+      "website": "https://www.indianembassybrussels.gov.in",
+      "hours": [
+        { "day": "Monday", "open": "09:00", "close": "17:45" },
+        { "day": "Tuesday", "open": "09:00", "close": "17:45" },
+        { "day": "Wednesday", "open": "09:00", "close": "17:45" },
+        { "day": "Thursday", "open": "09:00", "close": "17:45" },
+        { "day": "Friday", "open": "09:00", "close": "17:45" }
+      ],
+      "services": [
+        "Passport issuance, renewal and replacement",
+        "Visa services for foreign nationals visiting India",
+        "OCI (Overseas Citizen of India) card services",
+        "Attestation and legalization of documents",
+        "Emergency assistance (accidents, illness, legal matters, death of a national)",
+        "Registration of Indian nationals residing in Belgium"
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=217+Chauss%C3%A9e+de+Vleurgat+1050+Brussels"
+    }
+  ]
+}

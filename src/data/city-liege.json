@@ -1,0 +1,28 @@
+{
+  "slug": "liege",
+  "name": "Liège",
+  "region": "Wallonia",
+  "lastUpdated": "2026-07-03",
+  "isSampleData": true,
+  "overview": {
+    "description": "Liège is a French-speaking industrial city on the Meuse river with a well-regarded university. Content below is a starter sample.",
+    "population": "~197,000",
+    "whyVisit": ["Liège-Guillemins train station architecture", "Historic old town", "River Meuse waterfront"]
+  },
+  "attractions": [
+    { "id": "liege-guillemins", "name": "Liège-Guillemins Station", "description": "A striking modern railway station designed by Santiago Calatrava.", "category": "landmark" }
+  ],
+  "transportation": [
+    { "mode": "Bus/Tram (TEC)", "description": "TEC operates buses and a modern tram line through the city.", "tips": [] }
+  ],
+  "hotels": [
+    { "id": "liege-centre", "name": "City Centre", "area": "Liège Centre", "priceRange": "€€", "notes": "Sample entry — to be expanded." }
+  ],
+  "foodSpots": [
+    { "id": "liege-food-sample", "name": "Indian restaurants near the city centre", "cuisine": "Indian", "notes": "Sample entry — to be expanded." }
+  ],
+  "emergency": [
+    { "name": "General Emergency", "number": "112" }
+  ],
+  "tips": ["French is the primary language in Liège.", "Content on this page is a starter sample pending admin review."]
+}

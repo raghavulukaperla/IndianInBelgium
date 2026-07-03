@@ -1,0 +1,11 @@
+{
+  "title": "Travel Alerts",
+  "description": "Sample alerts feed for advisories, disruptions and warnings. Admins: edit this file to publish a live alert.",
+  "lastUpdated": "2026-07-03",
+  "category": "alerts",
+  "isSampleData": true,
+  "items": [
+    { "id": "alert-1", "title": "Sample alert: check for seasonal SNCB engineering works", "summary": "SNCB periodically runs weekend engineering works affecting specific lines. This is a sample entry — replace with a live advisory when relevant.", "date": "2026-06-15", "severity": "info", "tag": "alert" },
+    { "id": "alert-2", "title": "Sample alert: verify current customs allowances before travel", "summary": "Duty-free allowances can change; always check the Belgian customs website close to your travel date. This is a sample placeholder entry.", "date": "2026-05-01", "severity": "warning", "tag": "alert" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Indian Food & Groceries",
+  "description": "Indian restaurants, vegetarian/halal food, grocery stores and spice shops in Belgium.",
+  "lastUpdated": "2026-07-03",
+  "category": "food",
+  "isSampleData": true,
+  "items": [
+    { "id": "food-1", "name": "Indian restaurants cluster — Ixelles/Saint-Josse (sample)", "type": "indian-restaurant", "city": "Brussels", "address": "Chaussée de Wavre / Rue de Brabant area", "cuisine": ["North Indian", "South Indian"], "priceRange": "€€", "rating": 4.2, "dietaryOptions": ["Vegetarian", "Halal"] },
+    { "id": "food-2", "name": "Jain & Gujarati restaurants — Diamond District (sample)", "type": "indian-restaurant", "city": "Antwerp", "address": "Near Antwerp-Centraal / Pelikaanstraat", "cuisine": ["Gujarati", "Jain"], "priceRange": "€€", "rating": 4.3, "dietaryOptions": ["Vegetarian", "Jain", "Vegan options"] },
+    { "id": "food-3", "name": "Indian grocery stores — Brussels (sample)", "type": "grocery", "city": "Brussels", "address": "Multiple locations, Saint-Josse-ten-Noode", "cuisine": [], "priceRange": "€", "rating": 4.0, "dietaryOptions": ["Vegetarian staples"] },
+    { "id": "food-4", "name": "Spice & Asian markets — Antwerp (sample)", "type": "spice-shop", "city": "Antwerp", "address": "Near Diamond District", "cuisine": [], "priceRange": "€", "rating": 4.1, "dietaryOptions": [] }
+  ]
+}

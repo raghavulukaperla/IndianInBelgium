@@ -1,0 +1,19 @@
+{
+  "title": "Tourism",
+  "description": "UNESCO sites, museums, castles, parks, chocolate, beer experiences, day trips and hidden gems.",
+  "lastUpdated": "2026-07-03",
+  "category": "tourism",
+  "isSampleData": true,
+  "items": [
+    { "id": "unesco-1", "name": "Grand Place, Brussels", "type": "unesco", "city": "Brussels", "description": "UNESCO World Heritage central square.", "ticketInfo": "Free to visit", "website": "" },
+    { "id": "unesco-2", "name": "Historic Centre of Bruges", "type": "unesco", "city": "Bruges", "description": "UNESCO-listed medieval city centre.", "ticketInfo": "Free to walk; individual sites ticketed", "website": "" },
+    { "id": "unesco-3", "name": "Belfries of Belgium and France", "type": "unesco", "city": "Multiple", "description": "Belfry towers across Bruges, Ghent, Mechelen and other cities.", "ticketInfo": "Varies by site", "website": "" },
+    { "id": "museum-1", "name": "Royal Museums of Fine Arts of Belgium (sample)", "type": "museum", "city": "Brussels", "description": "Major art museum complex in Brussels.", "ticketInfo": "Paid entry, discounts for students", "website": "" },
+    { "id": "castle-1", "name": "Gravensteen Castle", "type": "castle", "city": "Ghent", "description": "Medieval moated castle in Ghent's centre.", "ticketInfo": "Paid entry", "website": "" },
+    { "id": "park-1", "name": "Parc du Cinquantenaire (sample)", "type": "park", "city": "Brussels", "description": "Large park with museums and a triumphal arch.", "ticketInfo": "Free", "website": "" },
+    { "id": "chocolate-1", "name": "Chocolate shops of Bruges (sample)", "type": "chocolate", "city": "Bruges", "description": "Numerous artisan chocolatiers in the historic centre.", "ticketInfo": "Free to browse; tastings/tours paid", "website": "" },
+    { "id": "beer-1", "name": "Trappist beer cafés (sample)", "type": "beer", "city": "Multiple", "description": "Belgium's famous Trappist and abbey beer culture.", "ticketInfo": "Varies", "website": "" },
+    { "id": "daytrip-1", "name": "Bruges day trip from Brussels (sample)", "type": "day-trip", "city": "Bruges", "description": "Easy 1-hour train ride for a full day of sightseeing.", "ticketInfo": "Train fare only", "website": "" },
+    { "id": "hidden-1", "name": "Sample hidden gem — to be curated", "type": "hidden-gem", "city": "Namur", "description": "Placeholder for a lesser-known local recommendation.", "ticketInfo": "", "website": "" }
+  ]
+}
