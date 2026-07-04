@@ -10,6 +10,7 @@ import communityRaw from "@/data/community.json";
 import festivalsRaw from "@/data/festivals.json";
 import cricketRaw from "@/data/cricket.json";
 import foodRaw from "@/data/food.json";
+import eventsRaw from "@/data/events.json";
 import shoppingRaw from "@/data/shopping.json";
 import tourismRaw from "@/data/tourism.json";
 import healthcareRaw from "@/data/healthcare.json";
@@ -47,6 +48,7 @@ import type {
   FestivalItem,
   CricketClubItem,
   FoodSpotItem,
+  EventItem,
   ShoppingItem,
   TourismSiteItem,
   TopicItem,
@@ -154,6 +156,10 @@ export function getFoodSpots(): DataEnvelope<FoodSpotItem> {
 
 export function getShopping(): DataEnvelope<ShoppingItem> {
   return shoppingRaw as unknown as DataEnvelope<ShoppingItem>;
+}
+
+export function getEvents(): DataEnvelope<EventItem> {
+  return eventsRaw as unknown as DataEnvelope<EventItem>;
 }
 
 // --- Tourism ---

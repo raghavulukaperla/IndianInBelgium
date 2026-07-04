@@ -37,7 +37,7 @@ The **Latest Updates** feed on the home page automatically merges `news.json` an
 
 ### Data files
 
-All data lives in `src/data/*.json` (34 files). A few examples:
+All data lives in `src/data/*.json` (35 files). A few examples:
 
 | File | Purpose |
 |---|---|
@@ -46,6 +46,7 @@ All data lives in `src/data/*.json` (34 files). A few examples:
 | `cities.json` + `city-<slug>.json` | City index plus one detail file per city (Overview / Attractions / Transportation / Hotels / Food / Emergency / Tips). |
 | `news.json`, `alerts.json` | The live-updates feed shown on the home page. |
 | `faq.json` | Searchable FAQ entries. |
+| `events.json` | Upcoming Indian community events. Each item can reference a poster `image` (path under `public/images/events/`) — see "Adding an event" below. |
 | `healthcare.json`, `education.json`, `work.json`, `safety.json`, `documents.json`, `insurance.json`, `currency.json`, `packing.json`, `immigration.json` | Generic "topic" pages — a shared shape (`title`, `description`, optional `steps`, `tips`, `relatedLinks`, `meta`) rendered by one reusable template. |
 
 Entries with `"isSampleData": true` are structurally complete but sparse — they render correctly today and are meant to be filled in by an admin with real, verified details. A small badge appears on any page pulling from a sample-flagged file.
@@ -56,6 +57,12 @@ Entries with `"isSampleData": true` are structurally complete but sparse — the
 2. Create `src/data/city-<slug>.json` following the shape in `src/types/city.ts`.
 3. Push. `cities/[city]/page.tsx` uses `generateStaticParams`, so the new city page is generated automatically — no new route file needed.
 
+### Adding an event
+
+1. Drop a poster image into `public/images/events/` (e.g. `diwali-2026.jpg`).
+2. Add an entry to `src/data/events.json` with `image` set to `/images/events/diwali-2026.jpg`. `image` is optional — omit it and a placeholder calendar icon is shown instead.
+3. Push. The event appears on `/events` immediately; there's no submission form or upload endpoint since the site has no backend — publishing an event is the same JSON-edit workflow as everything else.
+
 ### Extending to a real CMS/API later
 
 Nothing in `src/app` or `src/components` imports JSON files directly. Every page goes through the typed accessor functions in [`src/lib/data/index.ts`](src/lib/data/index.ts) (`getVisaInfo()`, `getCityBySlug()`, `getFaqs()`, etc.). Swapping static JSON for Contentful/Sanity/Strapi/Supabase/Firebase/a REST or GraphQL API later means rewriting the bodies of those functions — page and component code doesn't change. (Moving to a live API would also mean dropping `output: "export"` in favor of ISR/dynamic rendering, which is a deliberate future step, not required for the current static site.)
@@ -65,7 +72,7 @@ Nothing in `src/app` or `src/components` imports JSON files directly. Every page
 ```
 src/app/            Routes (Next.js App Router)
 src/components/      layout/ home/ search/ content/ interaction/ theme/ pwa/ ui/ (shadcn primitives)
-src/data/            34 JSON data files — the admin-editable content
+src/data/            35 JSON data files — the admin-editable content
 src/lib/             Typed data-access layer, storage helpers, metadata/sitemap helpers
 src/types/           TypeScript interfaces mirroring the JSON shapes
 scripts/             build-search-index.ts, validate-data.ts (run before every build)

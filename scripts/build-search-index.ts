@@ -63,6 +63,7 @@ const envelopeFiles: FileConfig[] = [
   { file: "festivals.json", category: "community", url: "/community/festivals" },
   { file: "cricket.json", category: "community", url: "/community/cricket" },
   { file: "food.json", category: "food", url: "/food" },
+  { file: "events.json", category: "events", url: "/events" },
   { file: "shopping.json", category: "shopping", url: "/shopping" },
   {
     file: "tourism.json",

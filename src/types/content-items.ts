@@ -198,6 +198,19 @@ export interface AlertItemEntry {
 
 export type UpdateFeedEntry = NewsItemEntry | AlertItemEntry;
 
+export interface EventItem {
+  id: string;
+  title: string;
+  description: string;
+  date: string;
+  time?: string;
+  location: string;
+  city: string;
+  image?: string;
+  organizer?: string;
+  registrationLink?: string;
+}
+
 export interface ChecklistItemEntry {
   id: string;
   label: string;

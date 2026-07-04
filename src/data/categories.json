@@ -62,6 +62,8 @@
     { "id": "work", "slug": "work", "title": "Working in Belgium", "icon": "Briefcase", "parentSlug": null, "description": "Work permits, taxes, banking and social security.", "order": 11, "href": "/work" },
     { "id": "safety", "slug": "safety", "title": "Safety", "icon": "ShieldAlert", "parentSlug": null, "description": "Emergency numbers, safety tips and scam awareness.", "order": 12, "href": "/safety" },
     { "id": "embassy", "slug": "embassy", "title": "Embassy", "icon": "Landmark", "parentSlug": null, "description": "Indian Embassy Brussels, consular and passport services.", "order": 13, "href": "/embassy" },
-    { "id": "faq", "slug": "faq", "title": "FAQ", "icon": "HelpCircle", "parentSlug": null, "description": "Frequently asked questions, searchable.", "order": 14, "href": "/faq" }
+    { "id": "faq", "slug": "faq", "title": "FAQ", "icon": "HelpCircle", "parentSlug": null, "description": "Frequently asked questions, searchable.", "order": 14, "href": "/faq" },
+
+    { "id": "events", "slug": "events", "title": "Events", "icon": "CalendarDays", "parentSlug": null, "description": "Upcoming Indian community events across Belgium.", "order": 15, "href": "/events" }
   ]
 }
