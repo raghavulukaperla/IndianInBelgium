@@ -2,27 +2,41 @@
   "slug": "liege",
   "name": "Liège",
   "region": "Wallonia",
-  "lastUpdated": "2026-07-03",
-  "isSampleData": true,
+  "lastUpdated": "2026-07-04",
+  "isSampleData": false,
   "overview": {
-    "description": "Liège is a French-speaking industrial city on the Meuse river with a well-regarded university. Content below is a starter sample.",
+    "description": "Liège is a French-speaking industrial city on the Meuse river, known for its striking modern railway station, a historic hilltop staircase, and a lively market and café culture along the riverbanks.",
     "population": "~197,000",
-    "whyVisit": ["Liège-Guillemins train station architecture", "Historic old town", "River Meuse waterfront"]
+    "foundedNote": "A major industrial and university centre in French-speaking Wallonia",
+    "whyVisit": [
+      "Liège-Guillemins railway station — a landmark steel-and-glass structure designed by Santiago Calatrava",
+      "Montagne de Bueren — a steep 374-step staircase (built 1875-1880) with panoramic views from the top",
+      "La Batte — one of Belgium's oldest and largest Sunday markets, running along the Meuse river",
+      "Grand Curtius museum for art, archaeology and decorative arts"
+    ]
   },
   "attractions": [
-    { "id": "liege-guillemins", "name": "Liège-Guillemins Station", "description": "A striking modern railway station designed by Santiago Calatrava.", "category": "landmark" }
+    { "id": "liege-guillemins", "name": "Liège-Guillemins Station", "description": "A striking modern railway station designed by Santiago Calatrava, notable for its steel-and-glass canopy.", "category": "landmark" },
+    { "id": "montagne-de-bueren", "name": "Montagne de Bueren", "description": "A 374-step staircase built 1875-1880, honouring the defenders of Liège against Charles the Bold; rewards climbers with panoramic city views.", "category": "landmark" },
+    { "id": "grand-curtius", "name": "Grand Curtius Museum", "description": "A museum of art, archaeology and decorative arts housed in a historic mansion overlooking the Meuse.", "category": "museum" },
+    { "id": "la-batte", "name": "La Batte Market", "description": "One of Belgium's oldest and largest markets, held every Sunday along the Meuse riverbank.", "category": "landmark" }
   ],
   "transportation": [
-    { "mode": "Bus/Tram (TEC)", "description": "TEC operates buses and a modern tram line through the city.", "tips": [] }
+    { "mode": "Bus/Tram (TEC)", "description": "TEC operates buses and a modern tram line through the city centre.", "tips": [] },
+    { "mode": "Train", "description": "Liège-Guillemins is a major rail hub with direct connections to Brussels, Namur, Maastricht and Germany.", "tips": [] }
   ],
   "hotels": [
-    { "id": "liege-centre", "name": "City Centre", "area": "Liège Centre", "priceRange": "€€", "notes": "Sample entry — to be expanded." }
+    { "id": "liege-centre", "name": "City Centre (near Place du Marché)", "area": "Liège Centre", "priceRange": "€€", "notes": "Central location near the historic market square and riverside cafés." }
   ],
   "foodSpots": [
-    { "id": "liege-food-sample", "name": "Indian restaurants near the city centre", "cuisine": "Indian", "notes": "Sample entry — to be expanded." }
+    { "id": "liege-food-1", "name": "Restaurants near the city centre", "cuisine": "Mixed", "notes": "Fewer dedicated Indian restaurants than Brussels or Antwerp; the university population supports a broader international food scene." }
   ],
   "emergency": [
     { "name": "General Emergency", "number": "112" }
   ],
-  "tips": ["French is the primary language in Liège.", "Content on this page is a starter sample pending admin review."]
+  "tips": [
+    "French is the primary language in Liège — Dutch is much less commonly spoken here than in Flanders.",
+    "The Night of the Hills (Nocturne des Coteaux), on the first Saturday of October, lines Montagne de Bueren with candles.",
+    "La Batte Sunday market is a good spot for browsing local produce and goods along the river."
+  ]
 }

@@ -1,9 +1,9 @@
 {
   "title": "Currency & Cards",
   "description": "Euros, exchange, banking and international cards for travel in Belgium.",
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "category": "currency",
-  "isSampleData": true,
+  "isSampleData": false,
   "items": [
     { "id": "exchange", "title": "Currency Exchange", "description": "Belgium uses the Euro (EUR). Exchange bureaus are available at the airport and city centres, though rates are often better via ATM withdrawal.", "steps": [], "tips": ["Avoid airport exchange counters for large amounts — rates are usually worse than ATMs or banks"] },
     { "id": "atms-cards", "title": "ATMs & Cards", "description": "Contactless debit/credit cards (Visa, Mastercard) are widely accepted across Belgium, including on public transport.", "steps": [], "tips": ["Notify your Indian bank before travel to avoid card blocks", "Carry a small amount of cash for smaller shops or markets"] },

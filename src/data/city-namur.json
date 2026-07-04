@@ -2,27 +2,39 @@
   "slug": "namur",
   "name": "Namur",
   "region": "Wallonia",
-  "lastUpdated": "2026-07-03",
-  "isSampleData": true,
+  "lastUpdated": "2026-07-04",
+  "isSampleData": false,
   "overview": {
-    "description": "Namur is the capital of Wallonia, dominated by its historic citadel at the confluence of the Meuse and Sambre rivers. Content below is a starter sample.",
+    "description": "Namur is the capital of Wallonia, dominated by its hilltop Citadel at the confluence of the Sambre and Meuse rivers — one of the largest fortress complexes in Europe.",
     "population": "~112,000",
-    "whyVisit": ["Namur Citadel", "Confluence of the Meuse and Sambre rivers", "Compact, walkable historic centre"]
+    "foundedNote": "Long a strategically important fortress city at the meeting point of the Sambre and Meuse rivers",
+    "whyVisit": [
+      "The Citadel of Namur — 80 hectares of grounds with roughly 7km of underground tunnels, among the largest fortresses in Europe",
+      "A cable car (since 2021) linking the city centre to the Citadel across the Sambre river",
+      "Compact, walkable historic centre with Baroque architecture such as Saint-Loup church",
+      "Base for exploring the Wallonia countryside and the Meuse valley"
+    ]
   },
   "attractions": [
-    { "id": "namur-citadel", "name": "Namur Citadel", "description": "A large fortified complex overlooking the city.", "category": "landmark" }
+    { "id": "namur-citadel", "name": "Citadel of Namur", "description": "A vast hilltop fortress with ~7km of underground tunnels, guided tours, a tourist train, and a cable car connecting it to the city centre.", "category": "castle" },
+    { "id": "saint-loup", "name": "Saint-Loup Church", "description": "A Baroque church in the historic centre, considered one of the finest examples of Baroque art in the former southern Low Countries.", "category": "landmark" }
   ],
   "transportation": [
-    { "mode": "Bus (TEC)", "description": "TEC buses cover the city and surrounding area.", "tips": [] }
+    { "mode": "Bus (TEC)", "description": "TEC buses cover the city and surrounding area.", "tips": [] },
+    { "mode": "Cable car", "description": "Since 2021, a cable car connects the Esplanade de la Citadelle to the city centre across the Sambre river.", "tips": [] }
   ],
   "hotels": [
-    { "id": "namur-centre", "name": "City Centre", "area": "Namur Centre", "priceRange": "€€", "notes": "Sample entry — to be expanded." }
+    { "id": "namur-centre", "name": "City Centre", "area": "Namur Centre", "priceRange": "€€", "notes": "Walkable to the old town and within reach of the Citadel via cable car or on foot." }
   ],
   "foodSpots": [
-    { "id": "namur-food-sample", "name": "Restaurants in the historic centre", "cuisine": "Mixed", "notes": "Sample entry — limited Indian options; to be expanded." }
+    { "id": "namur-food-1", "name": "Restaurants in the historic centre", "cuisine": "Mixed", "notes": "Limited dedicated Indian dining options; best explored as a day trip combined with a meal in Brussels or Liège." }
   ],
   "emergency": [
     { "name": "General Emergency", "number": "112" }
   ],
-  "tips": ["Namur is a good base for exploring the Wallonia countryside.", "Content on this page is a starter sample pending admin review."]
+  "tips": [
+    "The Citadel's underground tunnels and cable car make it worth a half-day visit on its own.",
+    "Namur is a good base for exploring the wider Wallonia countryside and the Meuse valley.",
+    "French is the primary language spoken in Namur."
+  ]
 }

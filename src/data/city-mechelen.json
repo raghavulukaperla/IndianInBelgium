@@ -2,27 +2,41 @@
   "slug": "mechelen",
   "name": "Mechelen",
   "region": "Flanders",
-  "lastUpdated": "2026-07-03",
-  "isSampleData": true,
+  "lastUpdated": "2026-07-04",
+  "isSampleData": false,
   "overview": {
-    "description": "Mechelen is a charming, walkable city midway between Brussels and Antwerp with a well-preserved historic centre. Content below is a starter sample.",
+    "description": "Mechelen is a compact, walkable city midway between Brussels and Antwerp, notable for St. Rumbold's Tower — a UNESCO World Heritage belfry — and two UNESCO-listed béguinages.",
     "population": "~87,000",
-    "whyVisit": ["St. Rumbold's Cathedral tower", "Compact, easily walkable historic centre", "Convenient location between Brussels and Antwerp"]
+    "foundedNote": "A historic Burgundian-era administrative centre, now a quieter alternative base between Brussels and Antwerp",
+    "whyVisit": [
+      "St. Rumbold's Tower — a 97m UNESCO-listed belfry with a skywalk, AR displays and the only two-carillon belfry in Belgium",
+      "Two UNESCO World Heritage béguinages, unique among Belgian cities",
+      "The Dijlepad — a floating pedestrian esplanade along the river Dijle",
+      "Only ~20-25 minutes by train from both Brussels and Antwerp"
+    ]
   },
   "attractions": [
-    { "id": "st-rumbolds", "name": "St. Rumbold's Cathedral", "description": "A UNESCO-listed belfry tower with panoramic views.", "category": "unesco" }
+    { "id": "st-rumbolds-tower", "name": "St. Rumbold's Tower", "description": "A 97-metre UNESCO-listed belfry; climb 538 steps (guided) for a skywalk and panoramic views. Uniquely has two 49-bell carillons.", "category": "unesco" },
+    { "id": "st-rumbolds-cathedral", "name": "St. Rumbold's Cathedral", "description": "Free to enter, the cathedral beneath the tower is worth exploring for its art and architecture.", "category": "landmark" },
+    { "id": "beguinages-mechelen", "name": "Béguinages", "description": "Mechelen is unique in Belgium for having two UNESCO World Heritage béguinages.", "category": "unesco" },
+    { "id": "grote-markt-mechelen", "name": "Grote Markt", "description": "Mechelen's central market square, a natural starting point for exploring the historic centre.", "category": "landmark" }
   ],
   "transportation": [
-    { "mode": "Train", "description": "On the main Brussels-Antwerp line, roughly 25 minutes from each.", "tips": [] }
+    { "mode": "Train", "description": "On the main Brussels-Antwerp line, roughly 20-25 minutes from each city.", "tips": [] },
+    { "mode": "Walking", "description": "The Dijlepad floating esplanade and compact centre make Mechelen very walkable.", "tips": [] }
   ],
   "hotels": [
-    { "id": "mechelen-centre", "name": "City Centre", "area": "Mechelen Centrum", "priceRange": "€€", "notes": "Sample entry — to be expanded." }
+    { "id": "mechelen-centre", "name": "City Centre (near Grote Markt)", "area": "Mechelen Centrum", "priceRange": "€€", "notes": "A quieter, lower-cost alternative to staying in Brussels or Antwerp, with fast rail access to both." }
   ],
   "foodSpots": [
-    { "id": "mechelen-food-sample", "name": "Restaurants in the historic centre", "cuisine": "Mixed", "notes": "Sample entry — to be expanded." }
+    { "id": "mechelen-food-1", "name": "Restaurants in the historic centre", "cuisine": "Mixed", "notes": "Limited dedicated Indian dining; easiest as a day trip combined with a meal in Brussels or Antwerp." }
   ],
   "emergency": [
     { "name": "General Emergency", "number": "112" }
   ],
-  "tips": ["Mechelen makes a quieter alternative base to Brussels or Antwerp.", "Content on this page is a starter sample pending admin review."]
+  "tips": [
+    "Mechelen makes a quieter, cheaper alternative base to Brussels or Antwerp thanks to its short train links to both.",
+    "St. Rumbold's Tower climb (538 steps) is well worth it for the views and AR/skywalk features.",
+    "The Belgium Cricket Academy runs youth training sessions in Mechelen as one of its five host cities."
+  ]
 }

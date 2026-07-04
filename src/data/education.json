@@ -1,12 +1,12 @@
 {
   "title": "Education",
   "description": "Universities, student visas, discounts and student life in Belgium.",
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "category": "education",
-  "isSampleData": true,
+  "isSampleData": false,
   "items": [
-    { "id": "universities", "title": "Universities", "description": "Belgium hosts several highly-ranked universities, including KU Leuven, Ghent University, ULB and VUB (Brussels), and UCLouvain.", "steps": [], "tips": ["Many master's programmes are taught in English", "Application deadlines are often 6+ months before the academic year starts"], "meta": { "notable": "KU Leuven, Ghent University, ULB, VUB, UCLouvain" } },
-    { "id": "student-visa", "title": "Student Visa (Type D)", "description": "Indian students admitted to a Belgian institution need a long-stay Type D student visa, applied for through VFS Global after receiving an admission letter.", "steps": ["Get an unconditional admission letter from a recognised Belgian institution", "Gather proof of funds and accommodation", "Apply for the Type D visa well before the semester start", "Register with the local municipality on arrival"], "tips": ["Apply at least 2-3 months ahead of your intended start date"] },
+    { "id": "universities", "title": "Universities", "description": "Belgium hosts several highly-ranked universities, including KU Leuven (founded 1425), Ghent University, ULB and VUB (Brussels), and UCLouvain.", "steps": [], "tips": ["Many master's programmes are taught in English", "Application deadlines are often 6+ months before the academic year starts", "Non-EU/EEA tuition is noticeably higher than EU tuition — e.g. KU Leuven charges non-EU students roughly €4,447/year for a standard 60-credit master's, versus a much lower EU rate; partial waivers exist for students from lower-income countries or with strong academic records"] },
+    { "id": "student-visa", "title": "Student Visa (Type D)", "description": "Indian students admitted to a Belgian institution need a long-stay Type D student visa, applied for through VFS Global after receiving an unconditional admission letter.", "steps": ["Get an unconditional admission letter from a recognised Belgian institution", "Gather proof of funds, accommodation and (for English-taught programmes) proof of English proficiency such as IELTS 6.5+", "Apply for the Type D visa well before the semester start — the visa fee is approximately €180", "Register with the local municipality within 8 working days of arrival to obtain your residence permit (the full process takes around 2 months)"], "tips": ["Apply at least 2-3 months ahead of your intended start date", "The Type D visa is only valid for 3 months on its own — municipality registration converts it into your residence permit"] },
     { "id": "student-discounts", "title": "Student Discounts", "description": "Student cards (often the university ID) unlock discounts on transport, museums and more.", "steps": [], "tips": ["SNCB offers reduced-fare Go Pass tickets for under-26s", "Many museums offer free or discounted entry with a student card"] },
     { "id": "libraries", "title": "Libraries", "description": "University and public libraries are generally open to residents and students, often with extended hours during exam periods.", "steps": [], "tips": [] }
   ]

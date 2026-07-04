@@ -2,27 +2,40 @@
   "slug": "leuven",
   "name": "Leuven",
   "region": "Flanders",
-  "lastUpdated": "2026-07-03",
-  "isSampleData": true,
+  "lastUpdated": "2026-07-04",
+  "isSampleData": false,
   "overview": {
-    "description": "Leuven is home to KU Leuven, one of Europe's oldest universities, and has a sizeable international and Indian student community. Content below is a starter sample.",
+    "description": "Leuven is home to KU Leuven, founded in 1425 and one of the oldest universities in Europe, giving the city one of the highest concentrations of international students in Belgium — including a large Indian student community.",
     "population": "~102,000",
-    "whyVisit": ["KU Leuven historic campus", "Grote Markt and Town Hall", "Student-friendly city with strong international community"]
+    "foundedNote": "KU Leuven founded in 1425, making it one of the oldest universities in Europe",
+    "whyVisit": [
+      "KU Leuven University Library — rebuilt in neo-Renaissance style after WWI destruction, with a bell tower offering panoramic views",
+      "Oude Markt — a lively square lined with bars, popularly nicknamed 'the longest bar in Europe'",
+      "The Kruidtuin (Botanical Garden) — Belgium's oldest botanical garden, created in 1783 for medical students, free entry",
+      "An easy ~25 minute train ride from Brussels, making it a popular day trip or student base"
+    ]
   },
   "attractions": [
-    { "id": "leuven-town-hall", "name": "Leuven Town Hall", "description": "Ornate Gothic town hall on the Grote Markt.", "category": "landmark" }
+    { "id": "ku-leuven-library", "name": "KU Leuven University Library", "description": "Leuven's landmark building, with a famous Art Deco reading hall (weekends only) and a bell tower reachable via ~289 steps for panoramic city views.", "category": "landmark" },
+    { "id": "oude-markt", "name": "Oude Markt", "description": "A historic square packed with bars and cafés, popularly known as 'Europe's longest bar'.", "category": "landmark" },
+    { "id": "kruidtuin", "name": "Kruidtuin (Botanical Garden)", "description": "Belgium's oldest botanical garden, established in 1783 by KU Leuven for medical students; free entry, around 800 plant species.", "category": "park" }
   ],
   "transportation": [
-    { "mode": "Train", "description": "Direct trains to Brussels in ~25 minutes.", "tips": [] }
+    { "mode": "Train", "description": "Direct trains to Brussels take roughly 25 minutes, making Leuven an easy commute or day trip.", "tips": [] },
+    { "mode": "Walking/Bicycle", "description": "The historic centre is compact and walkable; cycling is also very common among students.", "tips": [] }
   ],
   "hotels": [
-    { "id": "leuven-centre", "name": "City Centre", "area": "Leuven Centrum", "priceRange": "€€", "notes": "Sample entry — to be expanded." }
+    { "id": "leuven-centre", "name": "City Centre (near Oude Markt / Grote Markt)", "area": "Leuven Centrum", "priceRange": "€€", "notes": "Central and walkable to the university library and main square; can be lively/noisy near Oude Markt on weekends." }
   ],
   "foodSpots": [
-    { "id": "leuven-food-sample", "name": "Indian student-friendly eateries", "cuisine": "Indian", "notes": "Sample entry — to be expanded." }
+    { "id": "leuven-food-1", "name": "Restaurants and cafés around the student district", "cuisine": "Mixed, including South Asian options", "notes": "A large international and Indian student population supports a growing range of South Asian grocery and food options near the university area." }
   ],
   "emergency": [
     { "name": "General Emergency", "number": "112" }
   ],
-  "tips": ["Leuven has one of the highest concentrations of international students in Belgium.", "Content on this page is a starter sample pending admin review."]
+  "tips": [
+    "Leuven has one of the highest concentrations of international students in Belgium, including many Indian postgraduate students at KU Leuven.",
+    "The University Library's wooden Reading Hall is only open to visitors on weekends.",
+    "Being so close to Brussels (~25 min by train), Leuven works well as a lower-cost base for exploring the region."
+  ]
 }

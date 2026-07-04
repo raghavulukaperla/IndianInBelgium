@@ -1,9 +1,9 @@
 {
   "title": "Packing Checklist",
   "description": "What to pack for Belgium's mild, rainy maritime climate.",
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "category": "packing",
-  "isSampleData": true,
+  "isSampleData": false,
   "items": [
     { "id": "pack-clothing", "title": "Clothing", "description": "Layer-friendly clothing for a climate that changes quickly through the day.", "steps": [], "tips": ["Waterproof jacket or umbrella (rain is common year-round)", "Warm layers for winter (Nov-Feb can be near freezing)", "Comfortable walking shoes for cobbled streets"] },
     { "id": "pack-electronics", "title": "Electronics", "description": "Belgium uses Type E plugs (230V) — different from India's Type C/D.", "steps": [], "tips": ["Universal travel adapter", "Power bank for long train/flight days"] },

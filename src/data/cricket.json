@@ -1,11 +1,17 @@
 {
   "title": "Cricket Clubs",
-  "description": "Cricket clubs and leagues with Indian community participation in Belgium.",
-  "lastUpdated": "2026-07-03",
+  "description": "Cricket clubs and leagues in Belgium, governed by the Belgian Cricket Federation (Cricket Belgium).",
+  "lastUpdated": "2026-07-04",
   "category": "cricket",
-  "isSampleData": true,
+  "isSampleData": false,
   "items": [
-    { "id": "cricket-1", "clubName": "Royal Brussels Cricket Club (sample)", "city": "Brussels", "league": "Belgian Cricket Federation", "contact": "Contact via Belgian Cricket Federation", "groundName": "Sample entry — to be confirmed" },
-    { "id": "cricket-2", "clubName": "Antwerp Cricket Club (sample)", "city": "Antwerp", "league": "Belgian Cricket Federation", "contact": "Contact via Belgian Cricket Federation", "groundName": "Sample entry — to be confirmed" }
+    { "id": "antwerp-cricket-club", "clubName": "Antwerp Cricket Club", "city": "Antwerp", "league": "Belgian National League - Division 1", "contact": "Via cricket-belgium.com", "groundName": "Antwerp Cricket Club ground" },
+    { "id": "antwerp-indians-cc", "clubName": "Antwerp Indians CC", "city": "Antwerp", "league": "Belgian National League", "contact": "Via cricket-belgium.com", "groundName": "Antwerp region" },
+    { "id": "beveren-cricket-club", "clubName": "Beveren Cricket Club", "city": "Antwerp region", "league": "Belgian National League", "contact": "Via cricket-belgium.com", "groundName": "Beveren" },
+    { "id": "royal-brussels-cc", "clubName": "Royal Brussels Cricket Club", "city": "Brussels", "league": "Wallonia & Brussels League", "contact": "Via cricket-belgium.com", "groundName": "Brussels region" },
+    { "id": "brussels-greens-cc", "clubName": "Brussels Greens CC", "city": "Brussels", "league": "Wallonia & Brussels League", "contact": "Via cricket-belgium.com", "groundName": "Brussels region" },
+    { "id": "international-cc-belgium", "clubName": "International CC Belgium", "city": "Brussels", "league": "Wallonia & Brussels League", "contact": "Via cricket-belgium.com", "groundName": "Brussels region" },
+    { "id": "liege-cricket-club", "clubName": "Liège Cricket Club", "city": "Liège", "league": "Wallonia & Brussels League", "contact": "Via cricket-belgium.com", "groundName": "Liège region" },
+    { "id": "12-stars-cc", "clubName": "12 Stars Cricket Club", "city": "Brussels/Wallonia region", "league": "Wallonia & Brussels League", "contact": "Via cricket-belgium.com", "groundName": "Wallonia region" }
   ]
 }

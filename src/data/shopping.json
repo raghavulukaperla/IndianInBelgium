@@ -1,13 +1,14 @@
 {
   "title": "Shopping",
   "description": "Malls, supermarkets, Indian grocery, electronics and Sunday markets in Belgium.",
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "category": "shopping",
-  "isSampleData": true,
+  "isSampleData": false,
   "items": [
-    { "id": "shop-1", "name": "City2 Shopping Centre (sample)", "category": "Shopping Mall", "city": "Brussels", "address": "Rue Neuve, Brussels", "description": "Large shopping centre in central Brussels." },
-    { "id": "shop-2", "name": "Wijnegem Shopping Center (sample)", "category": "Shopping Mall", "city": "Antwerp", "address": "Wijnegem, near Antwerp", "description": "One of Belgium's largest shopping malls." },
-    { "id": "shop-3", "name": "Midi Market / Marché du Midi (sample)", "category": "Sunday Market", "city": "Brussels", "address": "Around Brussels-Midi station", "description": "One of Europe's largest Sunday markets, with South Asian and North African produce and goods." },
-    { "id": "shop-4", "name": "Indian grocery & electronics shops (sample)", "category": "Indian Grocery", "city": "Brussels", "address": "Saint-Josse-ten-Noode", "description": "Indian grocery, spices and household goods." }
+    { "id": "shop-1", "name": "City2 Shopping Centre", "category": "Shopping Mall", "city": "Brussels", "address": "Rue Neuve, 1000 Brussels", "description": "Large shopping centre on Brussels' main pedestrian shopping street, Rue Neuve." },
+    { "id": "shop-2", "name": "Wijnegem Shopping Center", "category": "Shopping Mall", "city": "Antwerp (Wijnegem)", "address": "Wijnegem, near Antwerp", "description": "One of Belgium's largest shopping malls, just outside Antwerp." },
+    { "id": "shop-3", "name": "Midi Market / Marché du Midi", "category": "Sunday Market", "city": "Brussels", "address": "Around Brussels-Midi/Zuid station", "description": "One of Europe's largest Sunday markets, with South Asian, North African and Mediterranean produce, spices and goods." },
+    { "id": "shop-4", "name": "Indian grocery & electronics shops", "category": "Indian Grocery", "city": "Brussels", "address": "Saint-Josse-ten-Noode, near Chaussée de Haecht", "description": "A cluster of Indian grocery, spice and household goods shops serving the Brussels Indian community." },
+    { "id": "shop-5", "name": "Antwerp Diamond District shops", "category": "Electronics & Grocery", "city": "Antwerp", "address": "Lange Herentalsestraat area, Antwerp", "description": "Indian and Gujarati grocery shops serving the diamond-trading community, alongside the diamond trade itself." }
   ]
 }

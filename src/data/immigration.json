@@ -1,11 +1,11 @@
 {
   "title": "Immigration",
   "description": "Municipality registration and residence permits after arriving in Belgium.",
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "category": "immigration",
-  "isSampleData": true,
+  "isSampleData": false,
   "items": [
-    { "id": "municipality-registration", "title": "Municipality Registration", "description": "Non-EU nationals staying longer than 90 days must register their address at the local commune/gemeente within 8 working days of arrival.", "steps": ["Locate your local commune/gemeente office", "Bring your passport, visa and proof of address (rental contract)", "Attend the address verification visit if scheduled", "Collect your residence permit card once approved"], "tips": ["Delaying registration can create complications with banking, healthcare and future visa renewals"] },
-    { "id": "residence-permit", "title": "Residence Permit", "description": "The permit type (e.g. single permit, student, family reunification) determines validity and renewal conditions.", "steps": [], "tips": ["Start renewal applications well before expiry — processing can take weeks"] }
+    { "id": "municipality-registration", "title": "Municipality Registration", "description": "Non-EU nationals staying longer than 90 days must register their address at the local commune/gemeente within 8 working days of arrival, per Belgium's Federal Public Service (FPS) Home Affairs rules.", "steps": ["Locate your local commune/gemeente office", "Bring your passport with visa, lease contract (or a signed 'address hosting declaration' from your host if not renting), and passport-style ID photos", "Attend the address verification visit from local police, typically scheduled after your initial registration", "Collect your residence permit / registration card once approved — the full process takes around 2 months"], "tips": ["Missing the 8-working-day deadline can complicate banking, healthcare enrolment and future visa renewals", "If you don't have a lease yet, arrange the host's signed address declaration before your appointment to avoid losing time against the deadline"] },
+    { "id": "residence-permit", "title": "Residence Permit", "description": "The permit type (e.g. Single Permit for work, student permit, family reunification) determines validity and renewal conditions.", "steps": [], "tips": ["Start renewal applications well before expiry — processing can take several weeks to a couple of months"] }
   ]
 }

@@ -1,13 +1,15 @@
 {
   "title": "Festivals Celebrated by the Indian Community",
-  "description": "Major Indian festivals celebrated across Belgium.",
-  "lastUpdated": "2026-07-03",
+  "description": "Major Indian festivals and cultural events celebrated across Belgium.",
+  "lastUpdated": "2026-07-04",
   "category": "festivals",
-  "isSampleData": true,
+  "isSampleData": false,
   "items": [
-    { "id": "diwali", "name": "Diwali", "month": "October/November", "description": "Festival of lights, celebrated with community events in Brussels and Antwerp.", "typicalCelebrationCities": ["Brussels", "Antwerp"], "isPublicHoliday": false },
-    { "id": "holi", "name": "Holi", "month": "March", "description": "Festival of colours, often celebrated with outdoor community gatherings when weather permits.", "typicalCelebrationCities": ["Brussels", "Leuven"], "isPublicHoliday": false },
-    { "id": "independence-day", "name": "Indian Independence Day", "month": "August", "description": "Flag hoisting and cultural events, often hosted at or near the Embassy of India.", "typicalCelebrationCities": ["Brussels"], "isPublicHoliday": false },
-    { "id": "navratri", "name": "Navratri / Garba", "month": "September/October", "description": "Nine nights of dance and celebration, popular within the Gujarati community in Antwerp.", "typicalCelebrationCities": ["Antwerp"], "isPublicHoliday": false }
+    { "id": "diwali", "name": "Diwali", "month": "October/November", "description": "Festival of lights, celebrated with community events at temples such as Brussels Mandir and Ram Mandir, and among Antwerp's Gujarati community.", "typicalCelebrationCities": ["Brussels", "Antwerp"], "isPublicHoliday": false },
+    { "id": "holi", "name": "Holi", "month": "March", "description": "Festival of colours, celebrated with community gatherings when weather permits, popular among students in university cities.", "typicalCelebrationCities": ["Brussels", "Leuven", "Ghent"], "isPublicHoliday": false },
+    { "id": "independence-day", "name": "Indian Independence Day", "month": "August", "description": "Flag hoisting and cultural events, typically held at or in coordination with the Embassy of India in Brussels.", "typicalCelebrationCities": ["Brussels"], "isPublicHoliday": false },
+    { "id": "navratri", "name": "Navratri / Garba", "month": "September/October", "description": "Nine nights of dance and celebration, especially popular within the Gujarati diamond-trading community in Antwerp; Durga Jaagran is also marked at Brussels Mandir.", "typicalCelebrationCities": ["Antwerp", "Brussels"], "isPublicHoliday": false },
+    { "id": "vaisakhi", "name": "Vaisakhi", "month": "April", "description": "Sikh harvest and new year festival, celebrated at Gurdwara Sangat Sahib in Sint-Truiden (Belgium's largest gurudwara) and Gurdwara Guru Nanak Sahib in the Brussels area.", "typicalCelebrationCities": ["Sint-Truiden", "Brussels"], "isPublicHoliday": false },
+    { "id": "gent-india-dans-festival", "name": "Gent India Dans Festival (GIDF)", "month": "Varies (check organiser)", "description": "An annual festival of Indian dance in Ghent curated by Swapnil Dagliya and organised by ABC – A Bollywood Company, featuring performances and workshops.", "typicalCelebrationCities": ["Ghent"], "isPublicHoliday": false }
   ]
 }

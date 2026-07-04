@@ -1,9 +1,9 @@
 {
   "title": "Travel Checklist",
   "description": "A phase-by-phase checklist template for the home page widget.",
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "category": "checklist",
-  "isSampleData": true,
+  "isSampleData": false,
   "items": [
     { "id": "chk-1", "label": "Apply for Schengen visa (at least 3-4 weeks ahead)", "phase": "before-travel" },
     { "id": "chk-2", "label": "Buy Schengen-compliant travel insurance (min. €30,000 cover)", "phase": "before-travel" },

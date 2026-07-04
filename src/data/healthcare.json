@@ -1,14 +1,14 @@
 {
   "title": "Healthcare",
   "description": "Hospitals, pharmacies, insurance and finding English-speaking care in Belgium.",
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "category": "healthcare",
-  "isSampleData": true,
+  "isSampleData": false,
   "items": [
     { "id": "health-insurance", "title": "Health Insurance", "description": "Belgium has mandatory health insurance for residents through a 'mutualité'/'ziekenfonds'. Visitors should carry travel medical insurance covering at least €30,000.", "steps": ["Register with a recognised mutualité/ziekenfonds within your first months of residence", "Get a Belgian national registry number first (via municipality registration)", "Keep Schengen-compliant travel insurance for short visits"], "tips": ["Employers often help arrange mutualité enrolment", "EU nationals can use an EHIC; non-EU visitors need private travel insurance"] },
     { "id": "finding-gp", "title": "Finding a GP (huisarts/médecin généraliste)", "description": "Registering with a local GP gives you a consistent point of contact and referrals to specialists.", "steps": ["Ask your commune, employer or university for a recommended local GP list", "Book an initial appointment to register as a patient", "Keep your national registry / insurance details on hand"], "tips": ["Many GPs in Brussels speak English", "Non-urgent same-day appointments can be hard to get — book ahead"] },
-    { "id": "hospitals", "title": "Hospitals", "description": "Belgium has a high standard of hospital care, both public and private, in all major cities.", "steps": [], "tips": ["Sample entry — admins should add specific hospital names/addresses per city"], "meta": { "note": "Sample/starter content" } },
+    { "id": "hospitals", "title": "Hospitals", "description": "Belgium has a high standard of hospital care. Major university hospitals with international patient services include Cliniques universitaires Saint-Luc, H.U.B (Hôpital Universitaire de Bruxelles), CHIREC and Erasmus Hospital in Brussels, and Antwerp University Hospital (UZA) in Antwerp.", "steps": [], "tips": ["Cliniques universitaires Saint-Luc treats patients in French and English, among other languages", "H.U.B International Patient Services supports patients from 70+ countries with multilingual staff", "UZA (Drie Eikenstraat 655, 2650 Edegem, near Antwerp — tel. +32 3 821 30 00) offers interpreter services on request"], "meta": { "Brussels": "Saint-Luc, H.U.B, CHIREC, Erasmus Hospital", "Antwerp": "UZA (Antwerp University Hospital)" } },
     { "id": "pharmacies", "title": "Pharmacies", "description": "Pharmacies (apotheek/pharmacie) are widely available and marked with a green cross.", "steps": [], "tips": ["A rotating on-duty pharmacy operates outside normal hours — look for the notice posted on any pharmacy door or check pharmacie.be"] },
-    { "id": "english-clinics", "title": "English-Speaking Clinics", "description": "Several clinics in Brussels cater specifically to the international and expat community.", "steps": [], "tips": ["Sample entry — admins should add specific clinic names/contacts"], "meta": { "note": "Sample/starter content" } }
+    { "id": "english-clinics", "title": "English-Speaking Clinics", "description": "Several clinics in Brussels cater specifically to the international and expat community.", "steps": [], "tips": ["Berlaymont Health Centre (Brussels, tel. 02 735 53 26) offers English-language consultations, paediatrics, gynaecology, mental health and more under one roof", "H.U.B International Patient Services provides dedicated support (translators, travel/visa assistance) for international patients"], "meta": { "Brussels": "Berlaymont Health Centre, H.U.B International Patient Services" } }
   ]
 }

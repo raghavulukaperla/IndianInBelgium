@@ -2,28 +2,43 @@
   "slug": "ghent",
   "name": "Ghent",
   "region": "Flanders",
-  "lastUpdated": "2026-07-03",
-  "isSampleData": true,
+  "lastUpdated": "2026-07-04",
+  "isSampleData": false,
   "overview": {
-    "description": "Ghent is a lively university city known for its medieval architecture, canals and student population. Content below is a starter sample — admins can expand it with fuller local detail.",
+    "description": "Ghent is a lively university city built around its medieval core, known for its canals, guild houses and the 'three towers' skyline of St. Bavo's Cathedral, the Belfry and St. Nicholas' Church. A large student population gives it a younger, less touristy feel than nearby Bruges.",
     "population": "~265,000",
-    "whyVisit": ["Gravensteen medieval castle", "Historic Graslei and Korenlei waterfront", "Large student population and nightlife"]
+    "foundedNote": "A major trading city since the Middle Ages, historically one of Europe's largest cities north of the Alps",
+    "whyVisit": [
+      "Gravensteen — the only fully preserved moated medieval castle in Flanders",
+      "Graslei and Korenlei — twin quays lined with 12th-century guild houses along the Leie river",
+      "St. Bavo's Cathedral, home to the Ghent Altarpiece by Jan van Eyck",
+      "The Belfry of Ghent — at ~91m, the tallest belfry in Belgium and a UNESCO World Heritage Site",
+      "A large, lively student population that keeps the city more affordable and less touristy than Bruges"
+    ]
   },
   "attractions": [
-    { "id": "gravensteen", "name": "Gravensteen Castle", "description": "A medieval moated castle in the city centre.", "category": "castle" },
-    { "id": "graslei", "name": "Graslei & Korenlei", "description": "Picturesque historic waterfront with guild houses.", "category": "landmark" }
+    { "id": "gravensteen", "name": "Gravensteen (Castle of the Counts)", "description": "Built around 1180 for the Counts of Flanders, this is the only fully preserved moated castle in Flanders. An audio guide covers its medieval history.", "category": "castle" },
+    { "id": "graslei-korenlei", "name": "Graslei & Korenlei", "description": "Historic twin quays along the Leie river lined with 12th-century guild houses — the postcard view of Ghent, especially at night when the buildings are lit.", "category": "landmark" },
+    { "id": "st-bavo-cathedral", "name": "St. Bavo's Cathedral", "description": "Gothic cathedral housing the Ghent Altarpiece ('The Adoration of the Mystic Lamb') by Jan van Eyck, one of the most important works in Western art history.", "category": "unesco" },
+    { "id": "belfry-ghent", "name": "Belfry of Ghent", "description": "At roughly 91 metres, the tallest belfry in Belgium, built in the 14th century as a symbol of civic independence; part of the UNESCO-listed Belfries of Belgium and France.", "category": "unesco" }
   ],
   "transportation": [
-    { "mode": "Tram/Bus (De Lijn)", "description": "Good coverage of the city centre and university areas.", "tips": [] }
+    { "mode": "Tram/Bus (De Lijn)", "description": "Ghent has a well-connected tram network run by De Lijn covering the historic centre and university areas.", "tips": ["Buy tickets via the De Lijn app before boarding for the best price", "The historic centre is largely pedestrianised — walking is often fastest"] },
+    { "mode": "Train", "description": "Ghent-Sint-Pieters connects directly to Brussels (~30-35 min), Antwerp and Bruges.", "tips": [] },
+    { "mode": "Bicycle", "description": "Ghent is very bike-friendly with extensive cycle lanes and a bike-share scheme.", "tips": [] }
   ],
   "hotels": [
-    { "id": "ghent-centre", "name": "City Centre", "area": "Ghent Centrum", "priceRange": "€€", "notes": "Sample entry — to be expanded." }
+    { "id": "ghent-centre", "name": "Historic Centre (Patershol / Korenmarkt)", "area": "Ghent Centrum", "priceRange": "€€", "notes": "Walkable to Gravensteen, Graslei and the main squares; generally cheaper than equivalent Bruges hotels." }
   ],
   "foodSpots": [
-    { "id": "ghent-food-sample", "name": "Indian restaurants near the university district", "cuisine": "Indian", "notes": "Sample entry — to be expanded with verified listings." }
+    { "id": "ghent-food-1", "name": "Indian and international restaurants near the university district", "cuisine": "Mixed, including Indian", "notes": "Ghent's large student population supports a diverse, affordable food scene around Overpoort and the city centre; dedicated Indian restaurant options are more limited than in Brussels or Antwerp." }
   ],
   "emergency": [
     { "name": "General Emergency", "number": "112" }
   ],
-  "tips": ["Ghent is very bike-friendly.", "Content on this page is a starter sample pending admin review."]
+  "tips": [
+    "Ghent is very bike-friendly — consider renting a bike to see the city like a local.",
+    "The Gent India Dans Festival, curated by the Ghent-based Indian dance company ABC (A Bollywood Company), brings Bollywood, Bhangra and Garba performances to the city.",
+    "Less touristy and generally cheaper than Bruges, making it a good base for a longer stay in Flanders."
+  ]
 }

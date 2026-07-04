@@ -1,9 +1,9 @@
 {
   "title": "Required Documents",
   "description": "Passport, OCI and other paperwork Indian travellers need before departure.",
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "category": "documents",
-  "isSampleData": true,
+  "isSampleData": false,
   "items": [
     { "id": "passport-doc", "title": "Passport", "description": "Must be valid for at least 3 months beyond your planned departure from the Schengen area, issued within the last 10 years, with at least 2 blank pages.", "steps": [], "tips": ["Carry a photocopy and a digital scan separate from the original"] },
     { "id": "oci", "title": "OCI (Overseas Citizen of India)", "description": "Persons of Indian origin who have taken foreign citizenship can apply for an OCI card, which functions as a lifelong multi-entry visa to India.", "steps": ["Apply online via the OCI portal", "Submit supporting documents (proof of prior Indian citizenship or descent)", "Attend biometrics/verification if required by your jurisdiction"], "tips": [] },
