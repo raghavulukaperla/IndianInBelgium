@@ -1,11 +1,11 @@
 {
   "title": "Upcoming Indian Community Events",
-  "description": "Upcoming Indian community events across Belgium — festivals, meetups, cultural shows and more. Admins: edit this file to publish a real event; drop a poster image in public/images/events/ and reference it via the image field.",
+  "description": "Upcoming Indian community events across Belgium — festivals, meetups, cultural shows and more. ",
   "lastUpdated": "2026-07-04",
   "category": "events",
   "isSampleData": true,
   "items": [
-    { "id": "sample-event-1", "title": "Sample event: Diwali Mela", "description": "This is a placeholder entry showing the event format — replace with a real upcoming event. Include what attendees can expect: food stalls, cultural performances, fireworks, etc.", "date": "2026-11-08", "time": "17:00", "location": "Tour & Taxis", "city": "Brussels", "organizer": "Indian Association Belgium", "registrationLink": "" },
-    { "id": "sample-event-2", "title": "Sample event: Bollywood Dance Workshop", "description": "Another placeholder entry. Add real details like registration requirements, ticket price and contact info here.", "date": "2026-09-20", "time": "14:00", "location": "Cultuurcentrum", "city": "Antwerp", "organizer": "", "registrationLink": "" }
+    { "id": "event-1", "title": "Diwali Mela", "description": "This is a placeholder entry showing the event format — replace with a real upcoming event. Include what attendees can expect: food stalls, cultural performances, fireworks, etc.", "date": "2026-11-08", "time": "17:00", "location": "Tour & Taxis", "city": "Brussels", "organizer": "Indian Association Belgium", "registrationLink": "" },
+    { "id": "event-2", "title": "Sri Srinivasa Kalyanam","image": "/images/events/Sri Srinivasa Kalyanam Belgium.jpeg", "description": "Don't miss your chance to be part of the sacred Sri Srinivasa (Balaji) Kalyanam Belgium 2026 — a grand celebration of bhakti, Vedic rituals, and divine grace.", "date": "2026-06-06", "time": "10:00 - 17:00 CET", "location": "Heilig Hart, Naamsesteenweg 355, Leuven, Belgium", "city": "Leuven", "organizer": "Sri Srinivasa Devotee Group", "registrationLink": "https://avistickets.com/events/srinivas-kalyanam-2026-belgium" }
   ]
 }
