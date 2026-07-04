@@ -18,7 +18,7 @@ export function EventCard({ item }: { item: EventItem }) {
         <img
           src={withBasePath(item.image)}
           alt={item.title}
-          className="aspect-video w-full object-cover"
+          className="max-h-96 w-full object-contain bg-muted"
         />
       ) : (
         <div className="flex aspect-video w-full items-center justify-center bg-muted">
