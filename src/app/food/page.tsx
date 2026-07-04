@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { ListPageTemplate } from "@/components/content/list-page-template";
-import { FoodSpotCard } from "@/components/content/cards/food-spot-card";
+import { PageHeader } from "@/components/content/page-header";
+import { FoodTabs } from "@/components/content/food-tabs";
 import { buildMetadata } from "@/lib/metadata";
 import { getFoodSpots } from "@/lib/data";
 
@@ -14,14 +14,16 @@ export const metadata: Metadata = buildMetadata({
 
 export default function FoodPage() {
   return (
-    <ListPageTemplate
-      title={data.title}
-      description={data.description}
-      lastUpdated={data.lastUpdated}
-      isSampleData={data.isSampleData}
-      items={data.items}
-      keyFor={(i) => i.id}
-      renderItem={(i) => <FoodSpotCard item={i} />}
-    />
+    <div>
+      <PageHeader
+        title={data.title}
+        description={data.description}
+        lastUpdated={data.lastUpdated}
+        isSampleData={data.isSampleData}
+      />
+      <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
+        <FoodTabs items={data.items} />
+      </div>
+    </div>
   );
 }

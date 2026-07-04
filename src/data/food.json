@@ -1,16 +1,20 @@
 {
   "title": "Indian Food & Groceries",
-  "description": "Indian restaurants, vegetarian/halal food, grocery stores and spice shops in Belgium.",
+  "description": "Indian restaurants and Indian grocery/spice stores in Belgium.",
   "lastUpdated": "2026-07-04",
   "category": "food",
   "isSampleData": false,
   "items": [
     { "id": "aahaar-delux", "name": "Aahaar Delux", "type": "indian-restaurant", "city": "Antwerp", "address": "Lange Herentalsestraat 23, 2018 Antwerpen", "cuisine": ["Gujarati", "Rajasthani", "Jain"], "priceRange": "€€", "rating": 4.3, "dietaryOptions": ["Vegetarian", "Jain", "Vegan options"] },
-    { "id": "les-rives-du-gange", "name": "Les Rives du Gange", "type": "indian-restaurant", "city": "Brussels", "address": "Brussels", "cuisine": ["North Indian"], "priceRange": "€€", "rating": 4.5, "dietaryOptions": ["Vegetarian", "Halal on request"] },
-    { "id": "karma-kitchen", "name": "Karma Kitchen (Mission Masala)", "type": "indian-restaurant", "city": "Brussels", "address": "Brussels", "cuisine": ["Indian", "Sri Lankan", "South East Asian fusion"], "priceRange": "€€", "rating": 4.2, "dietaryOptions": ["Vegetarian"] },
-    { "id": "saravanaa-bhavan-brussels", "name": "Saravanaa Bhavan", "type": "indian-restaurant", "city": "Brussels", "address": "Brussels", "cuisine": ["South Indian"], "priceRange": "€€", "rating": 4.3, "dietaryOptions": ["Vegetarian"] },
-    { "id": "namaste-sterrebeek", "name": "Namaste Restaurant", "type": "indian-restaurant", "city": "Brussels (Sterrebeek)", "address": "Sterrebeek, near Brussels", "cuisine": ["North Indian"], "priceRange": "€€", "rating": 4.4, "dietaryOptions": ["Vegetarian"] },
-    { "id": "indian-groceries-brussels", "name": "Indian grocery stores — Saint-Josse-ten-Noode", "type": "grocery", "city": "Brussels", "address": "Chaussée de Haecht / Saint-Josse-ten-Noode, Brussels", "cuisine": [], "priceRange": "€", "rating": 4.0, "dietaryOptions": ["Vegetarian staples"] },
-    { "id": "spice-shops-antwerp", "name": "Spice & grocery shops — Diamond District", "type": "spice-shop", "city": "Antwerp", "address": "Near Lange Herentalsestraat, Antwerp Diamond District", "cuisine": [], "priceRange": "€", "rating": 4.1, "dietaryOptions": [] }
+    { "id": "les-rives-du-gange", "name": "Les Rives du Gange", "type": "indian-restaurant", "city": "Brussels (Watermael-Boitsfort)", "address": "Avenue de la Fauconnerie 1-5, 1170 Watermael-Boitsfort, Brussels", "cuisine": ["North Indian"], "priceRange": "€€", "rating": 4.1, "dietaryOptions": ["Vegetarian", "Halal on request"] },
+    { "id": "karma-kitchen", "name": "Karma Kitchen (Mission Masala)", "type": "indian-restaurant", "city": "Brussels", "address": "Rue du Vieux Marché aux Grains 6, 1000 Brussels", "cuisine": ["Indian", "British-Indian fusion"], "priceRange": "€€", "rating": 4.5, "dietaryOptions": ["Vegetarian", "Vegan options"] },
+    { "id": "namaste-sterrebeek", "name": "Namaste Restaurant", "type": "indian-restaurant", "city": "Brussels (Sterrebeek)", "address": "Waalsestraat 10, 1933 Sterrebeek", "cuisine": ["North Indian"], "priceRange": "€€", "rating": 4.2, "dietaryOptions": ["Vegetarian"] },
+    { "id": "new-annapurna", "name": "New Annapurna", "type": "indian-restaurant", "city": "Brussels", "address": "Rue de Laeken 26, 1000 Brussels", "cuisine": ["North Indian", "Nepalese"], "priceRange": "€€", "rating": 4.0, "dietaryOptions": ["Vegetarian", "Vegan options"] },
+    { "id": "nora-indian", "name": "Nora Indian", "type": "indian-restaurant", "city": "Antwerp", "address": "Wolfstraat 35, 2000 Antwerpen", "cuisine": ["North Indian"], "priceRange": "€€", "rating": 4.4, "dietaryOptions": ["Vegetarian", "Vegan options"] },
+    { "id": "om-indian-veg", "name": "Om Indian Veg Restaurant", "type": "indian-restaurant", "city": "Antwerp", "address": "Leopold De Waelstraat, 2000 Antwerpen", "cuisine": ["Indian vegetarian"], "priceRange": "€", "rating": 3.9, "dietaryOptions": ["Vegetarian", "Vegan options", "Jain on request"] },
+    { "id": "sahota-brothers", "name": "Sahota Brothers", "type": "grocery", "city": "Brussels (Etterbeek)", "address": "Place Van Meyel 28, 1040 Etterbeek", "cuisine": [], "priceRange": "€", "rating": 4.2, "dietaryOptions": ["Vegetarian staples", "Halal meat"] },
+    { "id": "express-afro-indian", "name": "Express Afro-Indian", "type": "grocery", "city": "Brussels", "address": "Boulevard du Midi 98, 1000 Brussels", "cuisine": [], "priceRange": "€", "rating": 4.0, "dietaryOptions": ["Vegetarian staples"] },
+    { "id": "indianspices-be", "name": "Indianspices.be", "type": "spice-shop", "city": "Brussels (Schaerbeek)", "address": "Chaussée de Louvain 631, 1030 Schaerbeek", "cuisine": [], "priceRange": "€", "rating": 4.1, "dietaryOptions": [] },
+    { "id": "shanti-shop", "name": "Shanti Shop", "type": "grocery", "city": "Antwerp", "address": "Lange Herentalsestraat 62, 2018 Antwerpen", "cuisine": [], "priceRange": "€", "rating": 4.0, "dietaryOptions": ["Vegetarian staples"] }
   ]
 }

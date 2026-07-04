@@ -41,6 +41,8 @@
     { "id": "cricket", "slug": "cricket", "title": "Cricket Clubs", "icon": "Trophy", "parentSlug": "community", "description": "Cricket clubs and leagues.", "order": 7, "href": "/community/cricket" },
 
     { "id": "food", "slug": "food", "title": "Food", "icon": "UtensilsCrossed", "parentSlug": null, "description": "Indian restaurants, vegetarian, halal food, grocery and spice shops.", "order": 5, "href": "/food" },
+    { "id": "food-restaurants", "slug": "restaurants", "title": "Restaurants", "icon": "UtensilsCrossed", "parentSlug": "food", "description": "Indian restaurants across Belgium.", "order": 1, "href": "/food/restaurants" },
+    { "id": "food-grocery-stores", "slug": "grocery-stores", "title": "Grocery Stores", "icon": "ShoppingBasket", "parentSlug": "food", "description": "Indian grocery and spice stores across Belgium.", "order": 2, "href": "/food/grocery-stores" },
     { "id": "shopping", "slug": "shopping", "title": "Shopping", "icon": "ShoppingBag", "parentSlug": null, "description": "Malls, supermarkets, Indian grocery and Sunday markets.", "order": 6, "href": "/shopping" },
 
     { "id": "cities", "slug": "cities", "title": "Cities", "icon": "MapPin", "parentSlug": null, "description": "City guides for Brussels, Antwerp, Ghent, Bruges and more.", "order": 7, "href": "/cities" },
