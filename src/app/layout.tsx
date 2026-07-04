@@ -7,6 +7,7 @@ import { SearchProvider } from "@/components/search/search-provider";
 import { SearchDialog } from "@/components/search/search-dialog";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { Sidebar } from "@/components/layout/sidebar";
 import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { BackToTop } from "@/components/layout/back-to-top";
 import { ServiceWorkerRegister } from "@/components/pwa/sw-register";
@@ -61,9 +62,14 @@ export default function RootLayout({
           <TooltipProvider>
             <SearchProvider>
               <Header />
-              <Breadcrumbs />
               <SearchDialog />
-              <main className="flex-1">{children}</main>
+              <div className="mx-auto flex w-full max-w-[1600px] flex-1 items-start">
+                <Sidebar />
+                <div className="min-w-0 flex-1">
+                  <Breadcrumbs />
+                  <main>{children}</main>
+                </div>
+              </div>
               <Footer />
               <BackToTop />
               <ServiceWorkerRegister />

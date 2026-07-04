@@ -128,3 +128,24 @@
     @apply font-sans;
   }
 }
+
+/* tw-animate-css's accordion-down/up keyframes reference --radix-accordion-content-height,
+   but this project's base-ui Accordion sets --accordion-panel-height instead. Override the
+   keyframes to use the correct variable so panels actually animate open instead of staying
+   visually collapsed. */
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--accordion-panel-height, auto);
+  }
+}
+@keyframes accordion-up {
+  from {
+    height: var(--accordion-panel-height, auto);
+  }
+  to {
+    height: 0;
+  }
+}
