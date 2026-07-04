@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -21,8 +22,13 @@ export function NavTree({ onNavigate }: { onNavigate?: () => void }) {
     (c) => pathname === c.href || pathname.startsWith(`${c.href}/`),
   )?.slug;
 
+  // Captured once on mount so the value passed to defaultValue never changes across
+  // re-renders (e.g. client-side navigation) — otherwise base-ui warns about an
+  // uncontrolled Accordion's default value changing after initialization.
+  const [initialOpen] = useState<string[]>(() => (activeSlug ? [activeSlug] : []));
+
   return (
-    <Accordion multiple defaultValue={activeSlug ? [activeSlug] : []}>
+    <Accordion multiple defaultValue={initialOpen}>
       {topLevel.map((category, index) => {
         const children = getChildCategories(category.slug);
         const Icon = getIcon(category.icon);

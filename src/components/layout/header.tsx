@@ -18,12 +18,13 @@ export function Header() {
           <span className="hidden sm:inline">Indians in Belgium</span>
         </Link>
 
-        <div className="flex-1" />
-
-        <div className="flex items-center gap-2">
-          <SearchTrigger />
-          <ThemeToggle />
+        <div className="flex flex-1 justify-end px-2 sm:justify-center">
+          <div className="w-full max-w-md">
+            <SearchTrigger />
+          </div>
         </div>
+
+        <ThemeToggle />
       </div>
     </header>
   );

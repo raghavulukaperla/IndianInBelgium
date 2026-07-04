@@ -10,7 +10,7 @@ export function SearchTrigger() {
   return (
     <Button
       variant="outline"
-      className="w-full justify-between text-muted-foreground sm:w-56"
+      className="w-full justify-between text-muted-foreground"
       onClick={() => setOpen(true)}
     >
       <span className="flex items-center gap-2">
