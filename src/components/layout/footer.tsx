@@ -20,12 +20,11 @@ export function Footer() {
             </Link>
           ))}
         </div>
-        <div className="mt-8 flex flex-col gap-2 border-t pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-8 border-t pt-6 text-xs text-muted-foreground">
           <p>
             &copy; {year} Indians in Belgium. Content is provided for general guidance —
             always verify critical details (visas, fees, hours) with official sources.
           </p>
-          <p>Built as a static site, driven entirely by JSON data.</p>
         </div>
         <div className="mt-4 flex justify-center sm:justify-start">
           <InstallPrompt />

@@ -12,7 +12,7 @@ export function Hero() {
           Indians in Belgium
         </h1>
         <p className="max-w-xl text-lg text-muted-foreground">
-          Your one-stop static guide for visas, arrival, transport, community, food, and city
+          Your one-stop guide for visas, arrival, transport, community, food, and city
           guides — everything you need before, during and after your move to Belgium.
         </p>
         <div className="mt-2 w-full max-w-md">

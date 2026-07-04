@@ -1,7 +1,7 @@
 {
   "name": "Indians in Belgium",
   "short_name": "IndiansInBE",
-  "description": "A one-stop static guide for Indians travelling to and living in Belgium.",
+  "description": "A one-stop guide for Indians travelling to and living in Belgium.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
