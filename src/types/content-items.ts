@@ -150,6 +150,9 @@ export interface ShoppingItem {
   city: string;
   address: string;
   description: string;
+  coordinates?: { lat: number; lng: number };
+  popularBrands?: string[];
+  nearbyAttractions?: string[];
 }
 
 export interface TourismSiteItem {
