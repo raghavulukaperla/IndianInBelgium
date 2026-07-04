@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const repoName = "indians-in-belgium";
+const repoName = "IndianInBelgium";
 const isGithubPages = process.env.DEPLOY_TARGET === "github-pages";
 const basePath = isGithubPages ? `/${repoName}` : "";
 
