@@ -96,10 +96,14 @@ public/              manifest.webmanifest, sw.js, icons, generated search index
 
 ### GitHub Pages (primary)
 
+The site is served from a custom domain (`belgiumdesi.com`), which GitHub Pages serves from the domain root — so the deploy workflow runs a plain `npm run build` (no `basePath`), not `npm run build:gh`. `public/CNAME` pins the custom domain so it survives every redeploy (GitHub Pages requires this file to be present in the published output when deploying via `actions/deploy-pages`, since there's no `gh-pages` branch for it to persist on).
+
 1. In your repo, go to **Settings → Pages → Source** and select **GitHub Actions**.
-2. If your repository name isn't `indians-in-belgium`, update `repoName` in [`next.config.ts`](next.config.ts) to match — this controls the `basePath`/`assetPrefix` used only for the GitHub Pages build.
-3. Set the `NEXT_PUBLIC_SITE_URL` repository variable (or edit the fallback in [`src/lib/constants.ts`](src/lib/constants.ts)) to your real `https://<user>.github.io/<repo>` URL so sitemap/OG/canonical URLs are correct.
-4. Push to `main`. [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) validates the data, builds with the GitHub Pages `basePath`, and deploys via `actions/deploy-pages`.
+2. Under **Settings → Pages → Custom domain**, set your domain and add the matching DNS records (an `A`/`ALIAS` record at your DNS provider pointing to GitHub Pages, or a `CNAME` record if using a subdomain) — see [GitHub's custom domain docs](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site).
+3. `.github/workflows/deploy.yml` sets `NEXT_PUBLIC_SITE_URL` to the production domain for the build step, so sitemap/OG/canonical URLs are correct.
+4. Push to `main`. The workflow validates the data, builds with no `basePath` (root-relative, matching how the custom domain is served), and deploys via `actions/deploy-pages`.
+
+If you ever move off the custom domain back to the default `https://<user>.github.io/<repo>` project-page URL, switch the build step back to `npm run build:gh` (which sets `basePath`/`assetPrefix` from `repoName` in [`next.config.ts`](next.config.ts) — update `repoName` there if your repo name changes) and delete `public/CNAME`.
 
 ### Vercel
 

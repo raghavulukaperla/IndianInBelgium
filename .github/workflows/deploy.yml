@@ -30,8 +30,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build (validates data, builds search index, static-exports with GitHub Pages basePath)
-        run: npm run build:gh
+      - name: Build (validates data, builds search index, static-exports for the custom domain root)
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://belgiumdesi.com
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
